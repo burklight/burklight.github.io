@@ -1,3 +1,5 @@
+# Borja Rodríguez Gálvez
+
 ## About me
 
 I am a machine learning MSc student at KTH Royal Institute of Technology in Stockholm, Sweden. Previously to that, I studied telecommunications engineering at UPC in Barcelona, Spain.
