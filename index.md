@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## About me
 
 I am a doctoral student at KTH Royal Institute of Technology in Stockholm, Sweden. Before that, I did a master's degree in [Machine Learning](https://www.kth.se/en/studies/master/machinelearning) also at KTH and a bachelor's degree in [Telecommunications engineering](https://telecos.upc.edu/en/study-programs/degrees/bachelors-degree-in-telecommunications-technologies-and-services-engineering) at Universitat Politècnica de Catalunya (UPC) in Barcelona, Spain. 
@@ -25,7 +21,3 @@ However, I am also interested in talkin about other topics in information theory
 
 * Rodríguez-Gálvez, Borja, Ragnar Thobaben, and Mikael Skoglund. _"A Variational Approach to Privacy and Fairness."_ arXiv preprint arXiv:2006.06332 (2020). [[pdf](https://arxiv.org/pdf/2006.06332.pdf)][[cite](https://scholar.googleusercontent.com/scholar.bib?q=info:yvStTwja_3oJ:scholar.google.com/&output=citation&scisdr=CgXUmN2FEIfuhxult8Q:AAGBfm0AAAAAXvCgr8SBkOwT3EU06bygorglSyqdam6u&scisig=AAGBfm0AAAAAXvCgr0P4NbzilOLj834Q8o-gLKIFUJfN&scisf=4&ct=citation&cd=-1&hl=en)]
 * Rodríguez-Gálvez, Borja, Germán Bassi, and Mikael Skoglund. _"Upper Bounds on the Generalization Error of Private Algorithms."_ arXiv preprint arXiv:2005.05889 (2020). [[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](https://scholar.googleusercontent.com/scholar.bib?q=info:Eoh3XtmP3sMJ:scholar.google.com/&output=citation&scisdr=CgXUmN2FEIfuhxulWC4:AAGBfm0AAAAAXvCgQC7VLr4Pr4iKAhF3sDFRu55xieBd&scisig=AAGBfm0AAAAAXvCgQL5nOujD-MlTthKQYrNQ2Nm-OdW4&scisf=4&ct=citation&cd=-1&hl=en)]
-
-
-$p(x)$
-
