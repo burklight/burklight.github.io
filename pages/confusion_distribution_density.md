@@ -69,13 +69,13 @@ The simplest way to write effectively about these concepts is using the exact de
 
 However, in many machine learning papers the only functions that are used are the _probability density function_ (pdf) and the _probability mass function_ (pmf). I realize that the preferred notation is $p(x)$ for either $p_X(x)$ or $f_X(x)$. If this is the case, I recommend using the following:
 
-* Somewhere in the text (preferrably in a potential `Notation` section) write something on the lines of: *We write $p(X)$ and say density of $X$ to refer to the probability density function (pdf) or the probability mass function (pmf) of the random variable $X$, depending if it is continuous or discrete, respectively. Moreover, we write $p(x)$ instead of $p(X=x)$ for brevity.*
+* Somewhere in the text (preferrably in a potential *Notation* section) write something on the lines of: "*We write $p(X)$ and say density of $X$ to refer to the probability density function (pdf) or the probability mass function (pmf) of the random variable $X$, depending if it is continuous or discrete, respectively. Moreover, we write $p(x)$ instead of $p(X=x)$ for brevity.*"
 
-* Then, instead of writing something like *We learn the distribution $q_{\phi}(Y|X)$ ...* you can write some of the following:
+* Then, instead of writing something like "*We learn the distribution $q_{\phi}(Y \vert X)$ ...*" you can write some of the following:
 
-  * *We learn the distribution described by the density $q_{\phi}(Y|X)$.*
-  * *We learn the distribution described by $q_{\phi}(Y|X)$.*
-  * *We learn the density $q_{\phi}(Y|X)$.*
+  * "*We learn the distribution described by the density $q_{\phi}(Y \vert X)$.*"
+  * "*We learn the distribution described by $q_{\phi}(Y \vert X)$.*"
+  * "*We learn the density $q_{\phi}(Y \vert X)$.*"
 
 ## And that is all
 
