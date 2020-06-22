@@ -14,14 +14,14 @@ Recently, while reviewing the documents from some master's students I realized t
 In order to answer this question we need first to define what a *random variable* is:
 
 ---
-**Random variable:** Let $(\Omega, \mathcal{F}, \mathbb{P})$ be a probability space. Then, a random variable $X: \Omega \rightarrow \mathcal{X}$ is a real-valued function from the set of events $\Omega$ to the target space $\mathcal{X} \subseteq \mathbb{R}$. This function must satisfy that all events $\omega$ that can generate instances $X(\omega)$ from a Borel set $B$ belong to the $\sigma$-algebra $\mathcal{F}$, for all Borel sets of $\mathcal{X}$, $\mathcal{B}(\mathcal{X})$; that is, $\lbrace \omega: X(\omega) \in B\rbrace \in \mathcal{F}$ for each Borel set $B \in \mathcal{B}(\mathcal{X})$.
+**Random variable:** *Let $(\Omega, \mathcal{F}, \mathbb{P})$ be a probability space. Then, a random variable $X: \Omega \rightarrow \mathcal{X}$ is a real-valued function from the set of events $\Omega$ to the target space $\mathcal{X} \subseteq \mathbb{R}$. This function must satisfy that all events $\omega$ that can generate instances $X(\omega)$ from a Borel set $B$ belong to the $\sigma$-algebra $\mathcal{F}$, for all Borel sets of $\mathcal{X}$, $\mathcal{B}(\mathcal{X})$; that is, $\lbrace \omega: X(\omega) \in B\rbrace \in \mathcal{F}$ for each Borel set $B \in \mathcal{B}(\mathcal{X})$.*
 
 ---
 
 We are usually interested in the probability that a value of a random variable $X$ belongs to a set $B$. For example, the probability that $X = 7$ or $X > 3$. Formally, this is the probabiliy of the set of events for which the random variable $X$ yields values from $B$, i.e., $\mathbb{P}(\lbrace \omega: X(\omega) \in B\rbrace)$. For simplicity, however, we write $\mathbb{P}(X \in B)$ instead. The *probability distribution* is the set function that tells us this probability. 
 
 ---
-**Probability distribution:** Let $X$ be a random variable on the probability space $(\Omega, \mathcal{F}, \mathbb{P})$. The probability distribution $P_X: \mathcal{B}(\mathcal{X}) \rightarrow [0,1]$ of the random variable $X$ is the set function on $\mathcal{B}(\mathcal{X})$ defined by $P_X(B) = \mathbb{P}(X \in B)$.
+**Probability distribution:** *Let $X$ be a random variable on the probability space $(\Omega, \mathcal{F}, \mathbb{P})$. The probability distribution $P_X: \mathcal{B}(\mathcal{X}) \rightarrow [0,1]$ of the random variable $X$ is the set function on $\mathcal{B}(\mathcal{X})$ defined by $P_X(B) = \mathbb{P}(X \in B)$.*
 
 ---
 
@@ -30,9 +30,9 @@ We are usually interested in the probability that a value of a random variable $
 We define a *discrete random variable* as follows:
 
 ---
-**Discrete random variable**: We say a random variable $X$ is discrete if there is a countable set $K$ such that $P_X(K) = 1$. For such a random variable, we write $K = \lbrace x_k \rbrace_k$. Then, the probability distribution of $X$ is given by $P_X = \sum_k p_k \delta[x_k]$, where $p_k = \mathbb{P}(X=x_k)$ and $\delta[\cdot]$ is the Kronecker delta.
+**Discrete random variable**:* We say a random variable $X$ is discrete if there is a countable set $K$ such that $P_X(K) = 1$. For such a random variable, we write $K = \lbrace x_k \rbrace_k$. Then, the probability distribution of $X$ is given by $P_X = \sum_k p_k \delta[x_k]$, where $p_k = \mathbb{P}(X=x_k)$ and $\delta[\cdot]$ is the Kronecker delta.*
 
-**Probability mass function (pmf)**: Let us consider a discrete random variable $X$. The probability mass function (pmf) $p_X: \mathcal{X} \rightarrow [0,1]$ is defined as $p_X(x) = \mathbb{P}(X=x)$. 
+**Probability mass function (pmf)**: *Let us consider a discrete random variable $X$. The probability mass function (pmf) $p_X: \mathcal{X} \rightarrow [0,1]$ is defined as $p_X(x) = \mathbb{P}(X=x)$.*
 
 ---
 
@@ -51,9 +51,9 @@ Note that if we consider a Borel set $B= \lbrace x \rbrace$ such that $x \in \ma
 We define an *absolutely continuous random variable* as follows:
 
 ---
-**Absolutely continuous random variable**: We say a random variable $X$ is absolutely continuous if it exists a function non-negative Borel measurable function $f_X$ such that $P_X(B) = \int_B f_X(x) dx$ for all $B \in \mathcal{B}(\mathcal{X})$.
+**Absolutely continuous random variable**: *We say a random variable $X$ is absolutely continuous if it exists a function non-negative Borel measurable function $f_X$ such that $P_X(B) = \int_B f_X(x) dx$ for all $B \in \mathcal{B}(\mathcal{X})$.*
 
-**Probability density function (pmf)**: Let us consider an absolutely continuous random variable $X$. Then, the non-negative Borel measurable function $f_X: \mathcal{X} \rightarrow \mathbb{R}^+$ is the probabiliy density function of $X$.
+**Probability density function (pmf)**: *Let us consider an absolutely continuous random variable $X$. Then, the non-negative Borel measurable function $f_X: \mathcal{X} \rightarrow \mathbb{R}^+$ is the probabiliy density function of $X$.*
 
 ---
 
@@ -69,11 +69,13 @@ The simplest way to write effectively about these concepts is using the exact de
 
 However, in many machine learning papers the only functions that are used are the _probability density function_ (pdf) and the _probability mass function_ (pmf). I realize that the preferred notation is $p(x)$ for either $p_X(x)$ or $f_X(x)$. If this is the case, I recommend using the following:
 
-* Somewhere in the text (preferrably in a potential _Notation_ section) write something on the lines of: "We write $p(X)$ and say density of $X$ to refer to the probability density function (pdf) or the probability mass function (pmf) of the random variable $X$, depending if it is continuous or discrete, respectively. Moreover, we write $p(x)$ instead of $p(X=x)$ for brevity."
-* Then, instead of writing something like "We learn the distribution $q_{\phi}(Y|X)$ ..." you can write some of the following:
-  * "We learn the distribution described by the density $q_{\phi}(Y|X)$."
-  * "We learn the distribution described by $q_{\phi}(Y|X)$."
-  * "We learn the density $q_{\phi}(Y|X)$."
+* Somewhere in the text (preferrably in a potential `Notation` section) write something on the lines of: *We write $p(X)$ and say density of $X$ to refer to the probability density function (pdf) or the probability mass function (pmf) of the random variable $X$, depending if it is continuous or discrete, respectively. Moreover, we write $p(x)$ instead of $p(X=x)$ for brevity.*
+
+* Then, instead of writing something like *We learn the distribution $q_{\phi}(Y|X)$ ...* you can write some of the following:
+
+  * *We learn the distribution described by the density $q_{\phi}(Y|X)$.*
+  * *We learn the distribution described by $q_{\phi}(Y|X)$.*
+  * *We learn the density $q_{\phi}(Y|X)$.*
 
 ## And that is all
 
