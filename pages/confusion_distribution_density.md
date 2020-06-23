@@ -46,7 +46,7 @@ Note that if we consider a Borel set $B= \lbrace x \rbrace$ such that $x \in \ma
 
 ---
 
-### Absolutely continuous random variables and the probability density function (pdf)
+### Absolutely continuous random variables and the probability density function 
 
 We define an *absolutely continuous random variable* as follows:
 

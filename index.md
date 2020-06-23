@@ -11,9 +11,9 @@ I study the intersection between information theory and machine learning, under 
 
 * Generalization of learning algorithms.
 * Representation learning, more specifically:
-    * Minimal (and sufficient) representations.
-    * Disentangled representations.
-    * Private and fair represenations.
+  * Minimal (and sufficient) representations.
+  * Disentangled representations.
+  * Private and fair represenations.
 * Uncertainty in learning agorithms.
 
 However, I am also interested in talkin about other topics in information theory and machine learning. So, please, do not hesitate to contact me for a discussion (_borja at kth dot se_).
@@ -22,7 +22,7 @@ Also, sometimes I [blog](blog.md).
 
 ## Journal Publications
 
-* Rodríguez Gálvez, Borja, Ragnar Thobaben, and Mikael Skoglund. _"The convex information bottleneck lagrangian."_ Entropy 22.1 (2020): 98. [[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](https://scholar.googleusercontent.com/scholar.bib?q=info:T3T-UGxQMCsJ:scholar.google.com/&output=citation&scisdr=CgXUmN2FEIfuhxua2lE:AAGBfm0AAAAAXvCfwlGVH3hglDmmHZJPGNHQ2LZ35Tut&scisig=AAGBfm0AAAAAXvCfwl6WUFoFMafRI0FI7fYQpqBm_g4o&scisf=4&ct=citation&cd=-1&hl=en)]
+* Rodríguez Gálvez, Borja, Ragnar Thobaben, and Mikael Skoglund. _"The convex information bottleneck lagrangian."_ Entropy 22.1 (2020): 98. [[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)]
 
 ## Preprints 
 
