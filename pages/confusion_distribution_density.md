@@ -25,7 +25,7 @@ We are usually interested in the probability that a value of a random variable $
 
 ---
 
-Note that, once the probability distribution $P_X$ is defined, we can construct another probability space, namely $(\mathcal{X},\mathcal{B}(\mathcal{X}),P_X)$. In this space, the outcomes of a random variable $X$ are now $x \in \mathcal{X}$, the events are sets of such outcomes $B \in \mathcal{B}(\mathcal{X})$, and the probability of such events is measured as $P_X(B)$. If we construct this probability space, then the original sets $\Omega$ and $\mathcal{F}$ can remain as abstract concepts.
+Note that, once the probability distribution $P_X$ is defined, we can construct another probability space, namely $(\mathcal{X},\mathcal{B}(\mathcal{X}),P_X)$. In this space, the outcomes of a random variable $X$ are now $x \in \mathcal{X}$, the events are sets of such outcomes $B \in \mathcal{B}(\mathcal{X})$, and the probability of such events is measured as $P_X(B)$. If we construct this probability space, then the original sets of outcomes $\Omega$ and events $\mathcal{F}$ can remain as abstract concepts.
 
 ### Discrete random variables and the probability mass function
 
