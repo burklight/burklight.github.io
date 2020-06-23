@@ -27,4 +27,4 @@ Also, sometimes I [blog](blog.md).
 ## Preprints 
 
 * Rodríguez-Gálvez, Borja, Ragnar Thobaben, and Mikael Skoglund. _"A Variational Approach to Privacy and Fairness."_ arXiv preprint arXiv:2006.06332 (2020). [[pdf](https://arxiv.org/pdf/2006.06332.pdf)][[cite](citations/variational_approach_privacy_fairness.html)]
-* Rodríguez-Gálvez, Borja, Germán Bassi, and Mikael Skoglund. _"Upper Bounds on the Generalization Error of Private Algorithms."_ arXiv preprint arXiv:2005.05889 (2020). [[pdf]()[cite](citations/upper_bounds_generalization_smooth.html)]
+* Rodríguez-Gálvez, Borja, Germán Bassi, and Mikael Skoglund. _"Upper Bounds on the Generalization Error of Private Algorithms."_ arXiv preprint arXiv:2005.05889 (2020). [[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](citations/upper_bounds_generalization_smooth.html)]
