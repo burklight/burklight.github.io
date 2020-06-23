@@ -26,5 +26,5 @@ Also, sometimes I [blog](blog.md).
 
 ## Preprints 
 
-* Rodríguez-Gálvez, Borja, Ragnar Thobaben, and Mikael Skoglund. _"A Variational Approach to Privacy and Fairness."_ arXiv preprint arXiv:2006.06332 (2020). [[pdf](https://arxiv.org/pdf/2006.06332.pdf)][[cite](https://scholar.googleusercontent.com/scholar.bib?q=info:yvStTwja_3oJ:scholar.google.com/&output=citation&scisdr=CgXUmN2FEIfuhxult8Q:AAGBfm0AAAAAXvCgr8SBkOwT3EU06bygorglSyqdam6u&scisig=AAGBfm0AAAAAXvCgr0P4NbzilOLj834Q8o-gLKIFUJfN&scisf=4&ct=citation&cd=-1&hl=en)]
-* Rodríguez-Gálvez, Borja, Germán Bassi, and Mikael Skoglund. _"Upper Bounds on the Generalization Error of Private Algorithms."_ arXiv preprint arXiv:2005.05889 (2020). [[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](https://scholar.googleusercontent.com/scholar.bib?q=info:Eoh3XtmP3sMJ:scholar.google.com/&output=citation&scisdr=CgXUmN2FEIfuhxulWC4:AAGBfm0AAAAAXvCgQC7VLr4Pr4iKAhF3sDFRu55xieBd&scisig=AAGBfm0AAAAAXvCgQL5nOujD-MlTthKQYrNQ2Nm-OdW4&scisf=4&ct=citation&cd=-1&hl=en)]
+* Rodríguez-Gálvez, Borja, Ragnar Thobaben, and Mikael Skoglund. _"A Variational Approach to Privacy and Fairness."_ arXiv preprint arXiv:2006.06332 (2020). [[pdf](https://arxiv.org/pdf/2006.06332.pdf)][[cite](citations/variational_approach_privacy_fairness.html)]
+* Rodríguez-Gálvez, Borja, Germán Bassi, and Mikael Skoglund. _"Upper Bounds on the Generalization Error of Private Algorithms."_ arXiv preprint arXiv:2005.05889 (2020). [[pdf]()[cite](citations/upper_bounds_generalization_smooth.html)]
