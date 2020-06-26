@@ -3,7 +3,7 @@ layout: default
 title: Probability distribution vs. density
 ---
 
-Some time ago, my doctoral advisor, [Michael Skoglund](https://people.kth.se/~skoglund/), pointed to me I was referring to the _probability density function_ of a random variable as _distribution_, and that it was wrong. I was a bit puzzled, since I learned the definitions of these concepts during the bachelor's degree. However, after reading machine learning papers, these definitions blurred in my mind, since in many papers the two are confused with each other and/or used indistinctibly. In fact, even I propagated this misconception.
+Some time ago, my doctoral advisor, [Mikael Skoglund](https://people.kth.se/~skoglund/), pointed to me I was referring to the _probability density function_ of a random variable as _distribution_, and that it was wrong. I was a bit puzzled, since I learned the definitions of these concepts during the bachelor's degree. However, after reading machine learning papers, these definitions blurred in my mind, since in many papers the two are confused with each other and/or used indistinctibly. In fact, even I propagated this misconception.
 
 Recently, while reviewing the documents from some master's students, I realized that this has become a common misconception. For this reason, I decided to write about (i) the differences between these terms and (ii) how to write about them more precisely in academic texts.
 
@@ -41,7 +41,7 @@ We define a *discrete random variable* as follows:
 Note that if we consider a Borel set $B= \lbrace x \rbrace$ such that $x \in \mathcal{X}$, then there is an equivalence between the pmf and the probability distribution, namely, $p_X(x) = P_X(\lbrace x \rbrace)$. Therefore, the pmf $p_X(x)$ tells us the probabiliy of the random variable $X$ taking the value $x$.
 
 ---
-**Example**: Imagine the setting of the rolling of two dice. Then, we consider the probability space $(\Omega, \mathcal{F}, \mathbb{P})$, where the set of outcomes is the possible outcomes of the dice $\Omega = \lbrace (i,j): i,j=1,2,...,6 \rbrace$, the $\sigma$-algebra is the power set of $\Omega$, $\mathcal{P}(\Omega)$ (or the set of all possible events), and the probabiliy measure is $\mathbb{P} = \frac{1}{36}\gamma$, where $\gamma$ is the counting measure.
+**Example**: Imagine the setting of the rolling of two dice. Then, we consider the probability space $(\Omega, \mathcal{F}, \mathbb{P})$, where the set of outcomes is the possible outcomes of the dice $\Omega = \lbrace (i,j): i,j=1,2,...,6 \rbrace$, the $\sigma$-algebra is the power set of $\Omega$, $\mathcal{P}(\Omega)$ (or the set of all possible events), and the probabiliy measure is $\mathbb{P} = \frac{1}{36}\gamma$, where $\gamma$ is the counting measure. We consider the random variable $X$ to be the sum of the two dice outcomes.
 
 * If we want to know the probability that $X$ takes the value $7$, we can either look at the distribution of the set $\lbrace 7 \rbrace$ or at the pmf evaluated at 7. That is, $\mathbb{P}(X = 7) = P_X(\lbrace 7 \rbrace) = p_X(7) = \frac{1}{6}$.
 * However, if we consider the Borel set $B = \lbrace 2,4,5 \rbrace$, the probability that $X$ takes any of the values from this set is $\mathbb{P}(X \in B) = P_X(B) = \frac{1}{36}(\gamma(X = 2) + \gamma(X=4) + \gamma(X=5)) = \frac{2}{9}$. 
