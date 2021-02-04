@@ -37,6 +37,8 @@ Artificial Intelligence (2021). [[pdf](https://arxiv.org/pdf/2006.06332.pdf)][[c
 
 * **Rodríguez-Gálvez, Borja**, Germán Bassi, and Mikael Skoglund. _"Upper Bounds on the Generalization Error of Private Algorithms."_ arXiv preprint arXiv:2005.05889 (2020). [[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](citations/upper_bounds_generalization_smooth.html)]
 
+* **Rodríguez-Gálvez, Borja**, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund. _"Tighter expected generalization error bounds via Wasserstein distance."_ arXiv preprint arXiv:2101.09315 (2021). [[pdf](https://arxiv.org/pdf/2101.09315.pdf)] [[cite](citations/tighter_ege_via_wasserstein.html)]
+
 
 ## Teaching 
 
