@@ -3,7 +3,7 @@ layout: default
 title: Borja Rodríguez Gálvez's website
 ---
 
-[About me](#about-me) - [Publications](#publications-(chronologically)) - [Teaching](#teaching) - [Service](#service) 
+[About me](#about-me) - [Publications](#research) - [Teaching](#teaching) - [Service](#service) 
 
 ## About me
 
@@ -25,7 +25,9 @@ However, I am also interested in talking about other topics in information theor
 
 Also, sometimes I [blog](blog.md).
 
-## Publications (chronologically)
+## Research
+
+### Publications
 
 * [A Variational Approach to Privacy and Fairness](https://arxiv.org/abs/2006.06332) <br/> 
 <small>*<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* -
@@ -41,7 +43,7 @@ PPAI Workshop of AAAI 2021 (Spotlight presentation) <br/>
 [[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)] [[graphical abstract](graphical-abstracts/convex-ib-entropy-ga.svg)]
 </small>
 
-## Preprints 
+### Preprints 
 
 * [Upper Bounds on the Generalization Error of Private Algorithms](https://arxiv.org/abs/2005.05889) <br/>
 <small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, and Mikael Skoglund* - arXiv:2005.05889 (2020) <br/>
