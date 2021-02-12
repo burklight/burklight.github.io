@@ -3,6 +3,8 @@ layout: default
 title: Borja Rodríguez Gálvez's website
 ---
 
+[About me](#About-me) - [Publications](#Publications-(chronologically)) - [Teaching](#Teaching) - [Service](#Service)
+
 ## About me
 
 <img style="float: right;" src="/images/me_c.png" width="125" height="125">
@@ -14,7 +16,7 @@ I study the intersection between information theory and machine learning, under 
 
 * Generalization of learning algorithms.
 * Uncertainty in learning agorithms.
-* Representation learning. More specifically:
+* Representation learning. More specifically, in no particular order:
   * Minimal (and sufficient) representations.
   * Disentangled representations.
   * Private and fair represenations.
@@ -25,20 +27,29 @@ Also, sometimes I [blog](blog.md).
 
 ## Publications (chronologically)
 
-* **Rodríguez-Gálvez, Borja**, Ragnar Thobaben, and Mikael Skoglund. _"A Variational Approach to Privacy and Fairness."_ 2nd Privacy Preserving Artificial Intelligence Workshop (PPAI) of the AAAI Conference on
-Artificial Intelligence (2021). [[pdf](https://arxiv.org/pdf/2006.06332.pdf)][[cite](citations/variational_approach_privacy_fairness.html)]
+* [A Variational Approach to Privacy and Fairness](https://arxiv.org/abs/2006.06332) <br/> 
+<small>*<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* -
+PPAI Workshop of AAAI 2021 (Spotlight presentation) <br/>
+[[pdf](https://arxiv.org/pdf/2006.06332.pdf)] [[cite](citations/variational_approach_privacy_fairness.html)] [[video](videos/PPAI-21-slides.mp4)] [[slides](slides/PPAI-21-slides.pdf)] </small> 
 
-* **Rodríguez-Gálvez, Borja**, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund. _"On Random Subset Generalization Error Bounds and the Stochastic Gradient Langevin Dynamics Algorithm."_ IEEE Information Theory Workshop (2020) [[pdf](https://arxiv.org/pdf/2010.10994.pdf)][[cite](citations/random_subset_bounds_sgld.html)]
+* [On Random Subset Generalization Error Bounds and the Stochastic Gradient Langevin Dynamics Algorithm](https://arxiv.org/abs/2010.10994) <br/>
+<small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* - IEEE ITW 2020 <br/>
+[[pdf](https://arxiv.org/pdf/2010.10994.pdf)] [[cite](citations/random_subset_bounds_sgld.html)] </small>
 
-* **Rodríguez-Gálvez, Borja**, Ragnar Thobaben, and Mikael Skoglund. _"The convex information bottleneck lagrangian."_ Entropy 22.1 (2020): 98. [[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)]
+* [The Convex Information Bottleneck Lagrangian](https://www.mdpi.com/1099-4300/22/1/98) <br/>
+<small> *<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* - Entropy (Editor's choice) ([Special Issue](https://www.mdpi.com/journal/entropy/special_issues/information_theoretic_computational_intelligence)) <br/>
+[[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)] [[graphical abstract](graphical-abstracts/convex-ib-entropy-ga.svg)]
+</small>
 
 ## Preprints 
 
+* [Upper Bounds on the Generalization Error of Private Algorithms](https://arxiv.org/abs/2005.05889) <br/>
+<small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, and Mikael Skoglund* - arXiv:2005.05889 (2020) <br/>
+[[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](citations/upper_bounds_generalization_smooth.html)]  </small>
 
-* **Rodríguez-Gálvez, Borja**, Germán Bassi, and Mikael Skoglund. _"Upper Bounds on the Generalization Error of Private Algorithms."_ arXiv preprint arXiv:2005.05889 (2020). [[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](citations/upper_bounds_generalization_smooth.html)]
-
-* **Rodríguez-Gálvez, Borja**, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund. _"Tighter expected generalization error bounds via Wasserstein distance."_ arXiv preprint arXiv:2101.09315 (2021). [[pdf](https://arxiv.org/pdf/2101.09315.pdf)] [[cite](citations/tighter_ege_via_wasserstein.html)]
-
+* [Tighter expected generalization error bounds via Wasserstein distance](https://arxiv.org/abs/2101.09315) <br/>
+<small>*<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* - arXiv:2101.09315 (2021) <br/>
+[[pdf](https://arxiv.org/pdf/2101.09315.pdf)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
 
 ## Teaching 
 
@@ -46,3 +57,21 @@ Artificial Intelligence (2021). [[pdf](https://arxiv.org/pdf/2006.06332.pdf)][[c
 * [DD2434 Machine Learning, Advanced Course](https://www.kth.se/student/kurser/kurs/DD2434?l=en) at KTH - Fall 2018
 * [DD2447 Statistical Methods in Applied Computer Science](https://www.kth.se/student/kurser/kurs/DD2447?l=en) at KTH - Fall 2018
 * [DD2380 Artificial Intelligence](https://www.kth.se/student/kurser/kurs/DD2380?l=en) - Currently since Fall 2018
+
+## Service
+
+* <b>Reviewing</b> <br/>
+  * *Journals*: IEEE TIFS, IEEE TCOM, EURASIP JASP <br/>
+  * *Conferences*: ISIT
+
+* <b>Master Theses' supervising</b> <br/>
+  * Elias Ågeby - *Currently exploring his culinary passion* <br/>
+  <small>*Introducing Sparsity into the
+Current Landscape of Disentangled
+Representation Learning*</small>
+  * Johan Sörell - *Currently at Academic Work Sweden AB* <br/>
+  <small>*A General Approach to Inaudible
+Adversarial Perturbations in a
+Black-box Setting*</small>
+  * Mihaela Georgieva Stoycheva - *Currently at Ocado* <br/>
+  <small>*Uncertainty Estimation in Deep Neural Object Detectors for Autonomous Driving*</small>
