@@ -62,18 +62,20 @@ PPAI Workshop of AAAI 2021 (Spotlight presentation) <br/>
 
 ## Service
 
-* <b>Reviewing</b> <br/>
-  * *Journals*: IEEE TIFS, IEEE TCOM, EURASIP JASP <br/>
-  * *Conferences*: ISIT
+### Reviewing
+  
+* <b>Journals</b>: IEEE TIFS, IEEE TCOM, EURASIP JASP <br/>
+* <b>Conferences</b>: ISIT
 
-* <b>Master Theses' supervising</b> <br/>
-  * Elias Ågeby - *Currently exploring his culinary passion* <br/>
+### Master's Theses' supervising
+
+  * <b>Elias Ågeby</b> - Currently exploring his culinary passion <br/>
   <small>*Introducing Sparsity into the
 Current Landscape of Disentangled
 Representation Learning*</small>
-  * Johan Sörell - *Currently at Academic Work Sweden AB* <br/>
+  * <b>Johan Sörell</b> - Currently at Academic Work Sweden AB <br/>
   <small>*A General Approach to Inaudible
 Adversarial Perturbations in a
 Black-box Setting*</small>
-  * Mihaela Georgieva Stoycheva - *Currently at Ocado* <br/>
+  * <b>Mihaela Georgieva Stoycheva</b> - Currently at Ocado <br/>
   <small>*Uncertainty Estimation in Deep Neural Object Detectors for Autonomous Driving*</small>
