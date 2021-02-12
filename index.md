@@ -3,7 +3,7 @@ layout: default
 title: Borja Rodríguez Gálvez's website
 ---
 
-[About me](#about-me) - [Publications](#research) - [Teaching](#teaching) - [Service](#service) 
+[About me](#about-me) - [Research](#research) - [Teaching](#teaching) - [Service](#service) 
 
 ## About me
 
