@@ -36,7 +36,7 @@ PPAI Workshop of AAAI 2021 (Spotlight presentation) <br/>
 
 * [On Random Subset Generalization Error Bounds and the Stochastic Gradient Langevin Dynamics Algorithm](https://arxiv.org/abs/2010.10994) <br/>
 <small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* - IEEE ITW 2020 <br/>
-[[pdf](https://arxiv.org/pdf/2010.10994.pdf)] [[cite](citations/random_subset_bounds_sgld.html)][cite](citations/variational_approach_privacy_fairness.html)] [[video](videos/ITW-2021-video.mp4)] [[slides](slides/ITW-2021-slides.pdf)] </small>
+[[pdf](https://arxiv.org/pdf/2010.10994.pdf)] [[cite](citations/random_subset_bounds_sgld.html)][[slides](slides/ITW-2021-slides.pdf)] </small>
 
 * [The Convex Information Bottleneck Lagrangian](https://www.mdpi.com/1099-4300/22/1/98) <br/>
 <small> *<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* - Entropy (Editor's choice) ([Special Issue](https://www.mdpi.com/journal/entropy/special_issues/information_theoretic_computational_intelligence)) <br/>
