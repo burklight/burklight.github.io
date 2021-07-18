@@ -12,6 +12,8 @@ title: Borja Rodríguez Gálvez's website
 
 I am a doctoral student at KTH Royal Institute of Technology in Stockholm, Sweden. Before that, I did a master's degree in [Machine Learning](https://www.kth.se/en/studies/master/machinelearning) also at KTH and a bachelor's degree in [Telecommunications engineering](https://telecos.upc.edu/en/study-programs/degrees/bachelors-degree-in-telecommunications-technologies-and-services-engineering) at Universitat Politècnica de Catalunya (UPC) in Barcelona, Spain. 
 
+Currently (Summer 2021) I am an intern at the Privacy and Machine Learning team at Apple. Previously, I was an intern at the Machine Learning and Computer Vision team at CISCO (Summer 2019) and at Tobii AB (Summer 2018).
+
 I study the intersection between information theory and machine learning, under the supervision of [Mikael Skoglund](https://people.kth.se/~skoglund/) and [Ragnar Thobaben](https://www.kth.se/profile/ragnart). I am particularly interested in:
 
 * Generalization of learning algorithms.
@@ -28,6 +30,10 @@ Also, sometimes I [blog](blog.md).
 ## Research
 
 ### Publications
+
+* [Tighter expected generalization error bounds via Wasserstein distance](https://arxiv.org/abs/2101.09315) <br/>
+<small>*<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* - ITR3 Workshop of ICML 2021 (Contributed talk)<br/>
+[[pdf](preprints/itr3-icml-2021.pdf)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
 
 * [A Variational Approach to Privacy and Fairness](https://arxiv.org/abs/2006.06332) <br/> 
 <small>*<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* -
@@ -48,10 +54,6 @@ PPAI Workshop of AAAI 2021 (Spotlight presentation) <br/>
 * [Upper Bounds on the Generalization Error of Private Algorithms](https://arxiv.org/abs/2005.05889) <br/>
 <small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, and Mikael Skoglund* - arXiv:2005.05889 (2020) <br/>
 [[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](citations/upper_bounds_generalization_smooth.html)]  </small>
-
-* [Tighter expected generalization error bounds via Wasserstein distance](https://arxiv.org/abs/2101.09315) <br/>
-<small>*<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* - arXiv:2101.09315 (2021) <br/>
-[[pdf](https://arxiv.org/pdf/2101.09315.pdf)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
 
 ## Teaching 
 
