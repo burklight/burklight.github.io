@@ -80,9 +80,9 @@ No preprints at the moment.
 ### Master's Theses' supervising
 
   * <b>Elias Ågeby</b> - Currently exploring his culinary passion <br/>
-  <small>*Introducing Sparsity into the Current Landscape of Disentangled Representation Learning*</small>
+  <small>*Introducing Sparsity into the Current Landscape of Disentangled Representation Learning* - [[pdf](http://www.diva-portal.org/smash/get/diva2:1544671/FULLTEXT01.pdf)] [[website](https://eageby.github.io/disentangled-representations/#demo)] [[code](https://github.com/eageby/disentangled-representations)] </small> 
   * <b>Johan Sörell</b> - Currently at Academic Work Sweden AB <br/>
-  <small>*A General Approach to Inaudible Adversarial Perturbations in a Black-box Setting*</small>
+  <small>*A General Approach to Inaudible Adversarial Perturbations in a Black-box Setting* - [[pdf](http://www.diva-portal.org/smash/get/diva2:1544617/FULLTEXT01.pdf)] </small>
   * <b>Mihaela Georgieva Stoycheva</b> - Currently at Ocado <br/>
   <small>*Uncertainty Estimation in Deep Neural Object Detectors for Autonomous Driving*</small>
   * <b> Polixeni Ioannidou </b> - Currently at Ridgeline Discovery <br/>
