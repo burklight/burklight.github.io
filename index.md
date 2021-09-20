@@ -60,7 +60,10 @@ Entropy (Editor's choice) ([Special Issue](https://www.mdpi.com/journal/entropy/
 
 ### Preprints 
 
-No preprints at the moment.
+* [Enforcing fairness in private federated learning via the modified method of differential multipliers](https://arxiv.org/abs/2109.08604) <br/>
+<small> *<b>Borja Rodríguez-Gálvez</b>, Filip Granqvist, Rogier van Dalen, and Matt Seigel* <br/>
+[[pdf](https://arxiv.org/pdf/2109.08604.pdf)] [[cite](citations/enforcing_fairness_pfl.html)]
+</small>
 
 ## Teaching 
 
