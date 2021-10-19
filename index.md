@@ -32,38 +32,36 @@ Also, sometimes I [blog](blog.md).
 ### Publications
 
 * [Upper Bounds on the Generalization Error of Private Algorithms](https://arxiv.org/abs/2005.05889) <br/>
-<small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, and Mikael Skoglund* <br/> 
-  * IEEE Transactions on Information Theory <br/>
+<small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, and Mikael Skoglund* </small>
+  * <small> IEEE Transactions on Information Theory <br/>
 [[pdf](https://arxiv.org/pdf/2005.05889.pdf)] [[cite](citations/upper_bounds_generalization_smooth.html)]  </small>
 
 * [Tighter expected generalization error bounds via Wasserstein distance](https://arxiv.org/abs/2101.09315) 
 <br/> 
-<small>*<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* <br/> 
-  * Presented at ITR3 Workshop of ICML 2021 (Contributed talk)<br/> 
-[[pdf](preprints/itr3-icml-2021.pdf)] [[cite](citations/tighter_ege_via_wasserstein.html)] 
-  * NeurIPS 2021 
-</small>
+<small>*<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* </small> 
+  * <small> Presented at ITR3 Workshop of ICML 2021 (Contributed talk)<br/> 
+[[pdf](preprints/https://drive.google.com/file/d/16E-ec_crzmdv3xGAt8CSB-P9gENuWJ_k/view)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
+  * <small> NeurIPS 2021
+  </small>
+
 
 
 * [A Variational Approach to Privacy and Fairness](https://arxiv.org/abs/2006.06332) <br/> 
-<small>*<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* <br/>
-  * Presented at PPAI Workshop of AAAI 2021 (Spotlight presentation) <br/>
-[[pdf](https://arxiv.org/pdf/2006.06332.pdf)] [[cite](citations/variational_approach_privacy_fairness.html)] [[video](videos/PPAI-21-slides.mp4)] [[slides](slides/PPAI-21-slides.pdf)] 
-  * IEEE ITW 2021 <br/>
-[[pdf](https://www.itw2021.org/system/files/media_paper_file/1570726551.pdf)] [[cite](citations/variational_approach_privacy_fairness.html)] [[video](https://www.itw2021.org/paper/variational-approach-privacy-and-fairness)] [[slides](https://www.itw2021.org/sites/default/files/2021-10/1570726551.pdf)]
-
-</small> 
+<small>*<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* </small>
+  * <small> Presented at PPAI Workshop of AAAI 2021 (Spotlight presentation) <br/>
+[[pdf](https://arxiv.org/pdf/2006.06332.pdf)] [[cite](citations/variational_approach_privacy_fairness.html)] [[video](videos/PPAI-21-slides.mp4)] [[slides](slides/PPAI-21-slides.pdf)] </small>
+  * <small> IEEE ITW 2021 <br/>
+[[pdf](https://www.itw2021.org/system/files/media_paper_file/1570726551.pdf)] [[cite](citations/variational_approach_privacy_fairness.html)] [[video](https://www.itw2021.org/paper/variational-approach-privacy-and-fairness)] [[slides](https://www.itw2021.org/sites/default/files/2021-10/1570726551.pdf)] </small> 
 
 * [On Random Subset Generalization Error Bounds and the Stochastic Gradient Langevin Dynamics Algorithm](https://arxiv.org/abs/2010.10994) <br/>
-<small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* <br/> 
-  * IEEE ITW 2020 <br/>
+<small> *<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* </small> 
+  * <small> IEEE ITW 2020 <br/>
 [[pdf](https://arxiv.org/pdf/2010.10994.pdf)] [[cite](citations/random_subset_bounds_sgld.html)] [[slides](slides/ITW-2020-slides.pdf)] </small>
 
 * [The Convex Information Bottleneck Lagrangian](https://www.mdpi.com/1099-4300/22/1/98) <br/>
-<small> *<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* <br/>
-  * Entropy (Editor's choice) ([Special Issue](https://www.mdpi.com/journal/entropy/special_issues/information_theoretic_computational_intelligence)) <br/>
-[[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)] [[graphical abstract](graphical-abstracts/convex-ib-entropy-ga.svg)]
-</small>
+<small> *<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* </small>
+  * <small> Entropy (Editor's choice) ([Special Issue](https://www.mdpi.com/journal/entropy/special_issues/information_theoretic_computational_intelligence)) <br/>
+[[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)] [[graphical abstract](graphical-abstracts/convex-ib-entropy-ga.svg)] </small>
 
 ### Preprints 
 
