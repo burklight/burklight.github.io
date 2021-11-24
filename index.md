@@ -41,7 +41,7 @@ Also, sometimes I [blog](blog.md).
 
 * [Enforcing fairness in private federated learning via the modified method of differential multipliers](https://arxiv.org/abs/2109.08604) <br/>
 <small> *<b>Borja Rodríguez-Gálvez</b>, Filip Granqvist, Rogier van Dalen, and Matt Seigel* </small>
-  * <small> Presented ad PriML  Workshop of NeurIPS 2021 <br/>
+  * <small> Presented at PriML  Workshop of NeurIPS 2021 <br/>
 [[pdf](https://arxiv.org/pdf/2109.08604.pdf)] [[cite](citations/enforcing_fairness_pfl.html)] 
 </small>
 
