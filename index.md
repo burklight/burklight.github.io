@@ -17,6 +17,7 @@ Previously, I was an intern at the Privacy and Machine Learning team at Apple (S
 I study the intersection between information theory and machine learning, under the supervision of [Mikael Skoglund](https://people.kth.se/~skoglund/) and [Ragnar Thobaben](https://www.kth.se/profile/ragnart). I am particularly interested in:
 
 * Generalization of learning algorithms.
+* Privacy and fairness of learning algorithms.
 * Uncertainty in learning agorithms.
 * Representation learning. More specifically, in no particular order:
   * Minimal (and sufficient) representations.
@@ -81,7 +82,7 @@ Also, sometimes I [blog](blog.md).
 
 ### Reviewing
   
-* <b>Journals</b>: IEEE Trans. IT, IEEE TIFS, IEEE TCOM, EURASIP JASP <br/>
+* <b>Journals</b>: IEEE Trans. IT, IEEE TIFS, JMLR, IEEE TCOM, EURASIP JASP <br/>
 * <b>Conferences</b>: IEEE ISIT
 
 ### Master's Theses' supervising
@@ -91,6 +92,11 @@ Also, sometimes I [blog](blog.md).
   * <b>Johan Sörell</b> - Currently at Academic Work Sweden AB <br/>
   <small>*A General Approach to Inaudible Adversarial Perturbations in a Black-box Setting* - [[pdf](http://www.diva-portal.org/smash/get/diva2:1544617/FULLTEXT01.pdf)] </small>
   * <b>Mihaela Georgieva Stoycheva</b> - Currently at Ocado <br/>
-  <small>*Uncertainty Estimation in Deep Neural Object Detectors for Autonomous Driving*</small>
+  <small>*Uncertainty Estimation in Deep Neural Object Detectors for Autonomous Driving* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1618103/FULLTEXT01.pdf)]</small>
   * <b> Polixeni Ioannidou </b> - Currently at Ridgeline Discovery <br/>
-  <small>*Anomaly Detection in Computer Networks*</small>
+  <small>*Anomaly Detection in Computer Networks* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1557602/FULLTEXT01.pdf)] </small>
+
+* <b>Styliani Katsarou </b> - Currently at Peltariono <br/>
+  <small>*Improving Multilingual Models for the Swedish Language:  Exploring Cross­Lingual Transferability and Stereotypical Biases* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1618310/FULLTEXT01.pdf)]</small>
+
+  
