@@ -95,8 +95,7 @@ Also, sometimes I [blog](blog.md).
   <small>*Uncertainty Estimation in Deep Neural Object Detectors for Autonomous Driving* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1618103/FULLTEXT01.pdf)]</small>
   * <b> Polixeni Ioannidou </b> - Currently at Ridgeline Discovery <br/>
   <small>*Anomaly Detection in Computer Networks* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1557602/FULLTEXT01.pdf)] </small>
-
-* <b>Styliani Katsarou </b> - Currently at Peltariono <br/>
+* <b>Styliani Katsarou </b> - Currently at Peltarion <br/>
   <small>*Improving Multilingual Models for the Swedish Language:  Exploring Cross­Lingual Transferability and Stereotypical Biases* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1618310/FULLTEXT01.pdf)]</small>
 
   
