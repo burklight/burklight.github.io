@@ -40,6 +40,13 @@ Also, sometimes I [blog](blog.md).
   * <small> NeurIPS 2021 <br/>
   [[pdf](https://openreview.net/attachment?id=xJYek6zantM&name=supplementary_material)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
 
+* Measuring Gender Bias in
+Contextualized Embeddings <br/>
+<small> *Styliani Katsarou, <b>Borja Rodrı́guez-Gálvez</b>, and Jesse Shanahan* </small>
+  * <small> Presented at the AIBSD Workshop of AAAI 2022 <br/> 
+[[repo](https://github.com/Stellakats/Master-thesis-gender-bias)] </small>
+
+
 * [Enforcing fairness in private federated learning via the modified method of differential multipliers](https://arxiv.org/abs/2109.08604) <br/>
 <small> *<b>Borja Rodríguez-Gálvez</b>, Filip Granqvist, Rogier van Dalen, and Matt Seigel* </small>
   * <small> Presented at PriML  Workshop of NeurIPS 2021 <br/>
