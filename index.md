@@ -44,7 +44,7 @@ Also, sometimes I [blog](blog.md).
 Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
 <small> *Styliani Katsarou, <b>Borja Rodrı́guez-Gálvez</b>, and Jesse Shanahan* </small>
   * <small> Presented at the AIBSD Workshop of AAAI 2022 <br/> 
-[[[pdf](https://mdpi-res.com/d_attachment/csmf/csmf-03-00003/article_deploy/csmf-03-00003.pdf?version=1649929813)] [[repo](https://github.com/Stellakats/Master-thesis-gender-bias)] </small>
+[[pdf](https://mdpi-res.com/d_attachment/csmf/csmf-03-00003/article_deploy/csmf-03-00003.pdf?version=1649929813)] [[repo](https://github.com/Stellakats/Master-thesis-gender-bias)] </small>
 
 
 * [Enforcing fairness in private federated learning via the modified method of differential multipliers](https://arxiv.org/abs/2109.08604) <br/>
