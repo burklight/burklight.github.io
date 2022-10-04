@@ -12,7 +12,7 @@ title: Borja Rodríguez Gálvez's website
 
 I am a doctoral student at KTH Royal Institute of Technology in Stockholm, Sweden. Before that, I did a master's degree in [Machine Learning](https://www.kth.se/en/studies/master/machinelearning) also at KTH and a bachelor's degree in [Telecommunications engineering](https://telecos.upc.edu/en/study-programs/degrees/bachelors-degree-in-telecommunications-technologies-and-services-engineering) at Universitat Politècnica de Catalunya (UPC) in Barcelona, Spain. 
 
-Previously, I was an intern at the Privacy and Machine Learning team at Apple (Summer 2021), the Machine Learning and Computer Vision team at CISCO (Summer 2019), and the Machine Learning and Computer Vision team at Tobii AB (Summer 2018).
+Previously, I was an intern at the Machine Learning Group (Summer 2022) and at the Privacy and Machine Learning team at Apple (Summer 2021), the Machine Learning and Computer Vision team at CISCO (Summer 2019), and the Machine Learning and Computer Vision team at Tobii AB (Summer 2018).
 
 I study the intersection between information theory and machine learning, under the supervision of [Mikael Skoglund](https://people.kth.se/~skoglund/) and [Ragnar Thobaben](https://www.kth.se/profile/ragnart). I am particularly interested in:
 
@@ -31,6 +31,12 @@ Also, sometimes I [blog](blog.md).
 ## Research
 
 ### Publications
+
+* [An Information-Theoretic Analysis of Bayesian Reinforcement Learning](https://arxiv.org/abs/2207.08735)
+<br/>
+<small>*Amaury Gouverneur, <b>Borja Rodríguez-Gálvez</b>, Tobias J. Oechtering, Mikael Skoglund*</small>
+  * <small> Allerton 2022 [[pdf](https://arxiv.org/pdf/2207.08735.pdf)] [[cite](citations/information-theoretic-bayesian-reinforcement-learning.html)] </small>
+<br>
 
 * [Tighter expected generalization error bounds via Wasserstein distance](https://arxiv.org/abs/2101.09315) 
 <br/> 
@@ -90,7 +96,7 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
 ### Reviewing
   
 * <b>Journals</b>: IEEE Trans. IT, IEEE TIFS, JMLR, IEEE TCOM, EURASIP JASP <br/>
-* <b>Conferences</b>: IEEE ISIT
+* <b>Conferences</b>: IEEE ISIT, ICLR
 
 ### Master's Theses' supervising
 
