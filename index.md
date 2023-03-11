@@ -32,6 +32,11 @@ Also, sometimes I [blog](blog.md).
 
 ### Publications
 
+* [Limitations of information-theoretic generalization bounds for gradient descent methods in stochastic convex optimization](https://proceedings.mlr.press/v201/haghifam23a.html)
+<br/>
+<small>*Mahdi Haghifam, <b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, Mikael Skoglund, Daniel M. Roy, Gintare Karolina Dziugaite*</small>
+  * <small> ALT 2023 [[pdf](https://proceedings.mlr.press/v201/haghifam23a/haghifam23a.pdf)] [[cite](citations/limitations_it_bounds_gd_clb.html)] </small>
+
 * [An Information-Theoretic Analysis of Bayesian Reinforcement Learning](https://arxiv.org/abs/2207.08735)
 <br/>
 <small>*Amaury Gouverneur, <b>Borja Rodríguez-Gálvez</b>, Tobias J. Oechtering, Mikael Skoglund*</small>
@@ -87,7 +92,7 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
 * [DD2434 Machine Learning, Advanced Course](https://www.kth.se/student/kurser/kurs/DD2434?l=en) at KTH - Fall 2018
 * [DD2447 Statistical Methods in Applied Computer Science](https://www.kth.se/student/kurser/kurs/DD2447?l=en) at KTH - Fall 2018
 * [DD2380 Artificial Intelligence](https://www.kth.se/student/kurser/kurs/DD2380?l=en) - Fall 2018, Spring 2019, Fall 2019, Fall 2020, Fall 2021
-* [EQ1270 Stochastic Signals and Systems](https://www.kth.se/student/kurser/kurs/EQ1270?l=en) - Fall 2021
+* [EQ1270 Stochastic Signals and Systems](https://www.kth.se/student/kurser/kurs/EQ1270?l=en) - Fall 2021, Fall 2022
 
 ## Service
 
@@ -108,5 +113,3 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
   <small>*Anomaly Detection in Computer Networks* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1557602/FULLTEXT01.pdf)] </small>
 * <b>Styliani Katsarou </b> - Currently at Peltarion <br/>
   <small>*Improving Multilingual Models for the Swedish Language:  Exploring Cross­Lingual Transferability and Stereotypical Biases* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1618310/FULLTEXT01.pdf)]</small>
-
-  
