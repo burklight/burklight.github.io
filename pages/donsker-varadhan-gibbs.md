@@ -189,7 +189,13 @@ $$
 
 which completes the proof. $\square$
 
-## References 
+## And that is all
+
+Well, that is the end of this blog. Thank you very much for reading until the end and again I hope I did not bore you too much or I did not write too much incoherences.
+
+Please, let me know if you have any suggestions. 
+
+The references for this blog are:
 
 * J. W. Gibbs. *Elementary principles in statistical mechanics: developed with especial reference to the rational foundation of thermodynamics.* C. Scribner’s sons, 1902.
 
