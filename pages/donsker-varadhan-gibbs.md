@@ -16,17 +16,22 @@ They were originally proposed (as far as I know) by J. W. Gibbs in 1902 and by M
 **Gibbs variational principle** *Let $(\mathcal{X}, \mathscr{X})$ be a measurable space, $\nu$ be a probability measure on $\mathcal{X}$, and $g$ be a measurable function on $\mathcal{X}$ such that $\mathbb{E}_{x \sim \nu}[e^{g(x)}] < \infty$. Let $\mathcal{P}_{\nu}(\mathcal{X})$ be the set of probability measures $\mu$ on $\mathcal{X}$ such that $\mu \ll \nu$, then*
 
 $$
-\begin{aligned}
+\begin{equation*}
 \log \mathbb{E}_{x \sim \nu} [ e^{g(x)} ] = \sup_{\mu \in \mathcal{P}_{\nu}(\mathcal{X})} \Big \lbrace \mathbb{E}_{x \sim \mu}[g(x)] - D(\mu \lVert \nu) \Big \rbrace.
-\end{aligned}
+\end{equation*}
 $$
+
 ---
 
 ---
 **Donsker-Varadhan lemma:** *Let $(\mathcal{X}, \mathscr{X})$ be a measurable space and $\mu$ and $\nu$ be two probability measures on $\mathcal{X}$. Let $\mathcal{G}_{\nu}$ the set of all measurable functions on $\mathcal{X}$ such that $\mathbb{E}_{x \sim \nu}[e^{g(x)}] < \infty$. If $\mu \ll \nu$, then*
+
 $$
+\begin{equation*}
 D(\mu \lVert \nu) = \sup_{g \in \mathcal{G}} \Big \lbrace \mathbb{E}_{x \sim \mu}[g(x) ] - \log \mathbb{E}_{x \sim \nu} [e^{g(x)}] \Big \rbrace
+\end{equation*}
 $$
+
 ---
 
 In this blog I will mainly cover three things:
@@ -48,9 +53,13 @@ Then, we can employ some duality tricks to realize that both the Gibbs variation
 Let $\nu$ be a probability measure. Let $\mathcal{P}_{\nu}(\mathcal{X})$ be the set of all probability distributions $\mu$ on $\mathcal{X}$ such that $\mu \ll \nu$. Similarly, let $\mathcal{G}_{\nu}$ be the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \nu}[e^{g(x)}] < \infty$. This is equivalent to the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \mu}[g(x)] < \infty$ for all $\mu \in \mathcal{P}_{\nu}(\mathcal{X})$. Therefore, $\mathcal{G}_{\nu}$ is the dual space of $\mathcal{P}_{\nu}(\mathcal{X})$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle := \mathbb{E}_{x \sim \mu} [ g(x)]$.
 
 Consider the convex conjugate $D_{\nu}^* : \mathcal{G_{\nu}} \to \mathbb{R}$ of $D_{\nu}$, that is
+
 $$
+\begin{equation*}
     D_{\nu}^*(g) = \sup_{\mu \in \mathcal{P}(\mathcal{X})} \Big \lbrace \langle \mu, g \rangle - D_{\nu}(\mu)  \Big \rbrace.
+\end{equation*}
 $$
+
 From the Gibbs variational principle, we know that $D_{\nu}^*(g) = \log \mathbb{E}_{x \sim \nu} [e^{g(x)}]$. The dual space of $\mathcal{G}_{\nu}$ is now $\mathcal{M}_{\nu}(\mathcal{X})$, which comprises all signed measures such that $\int_{\mathcal{X}} g(x) d\mu(x) < \infty$ for all $g \in \mathcal{G}_{\nu}$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle :=  \int_{\mathcal{X}} g(x) d\mu(x)$. 
 
 Since $D_{\nu}$ is convex and lower semicontinuous by the Fenchel–Moreau theorem it holds that the convex conjugate $(D_{\nu}^{*})^*$ of $D_{\nu}^*$ is equal to the original function $D_{\nu}$. Hence, we have that
@@ -73,7 +82,9 @@ In any case, I really like R. van Handel's proof from Lemma 4.1 in his lecture n
 *Proof:* Consider a probability measure $\gamma \in \mathcal{P}_{\nu}(\mathcal{X})$. Then, 
 
 $$
+\begin{equation*}
     \log \int_{\mathcal{X}}  e^{g(x)} d \nu(x) - D(\mu \lVert \gamma) = \log \int_{\mathcal{X}}  e^{g(x)} d \nu(x) - \int_{\mathcal{X}} \log \Big( \frac{d\mu}{d\gamma}(x) \Big) d\mu(x)
+\end{equation*}
 $$
 
 and $\sup_{\mu \in \mathcal{P}_{\nu}(\mathcal{X})} \big \lbrace \log \int_{\mathcal{X}} e^{g(x)} d \nu(x) - D(\mu \lVert \gamma) \rbrace =  \log \int_{\mathcal{X}} e^{g(x)} d \nu(x)$ since the relative entropy is non-negative.
@@ -81,7 +92,9 @@ and $\sup_{\mu \in \mathcal{P}_{\nu}(\mathcal{X})} \big \lbrace \log \int_{\math
 An inspection of the Radon-Nikodym theorem [McDonald and Weiss 1999, Theorem 9.3] hints that we may want to consider the probability measure $\gamma$ with Radon-Nikodym derivative
 
 $$
+\begin{equation*}
     \frac{d \nu}{d \gamma} (x) = \frac{\int_{\mathcal{X}} e^{g(y)} d\nu(y)}{e^{g(x)}}.
+\end{equation*}
 $$
 
 Crucially, this probability measure has the property that $\gamma \ll \nu$ and $\nu \ll \gamma$. Using this selection of $\gamma$ and the fact that for probability measures $\mu \ll \nu \ll \gamma$ it holds that $\frac{d \mu}{d \gamma} = \frac{d \mu}{d \nu} \frac{d \nu}{d \gamma}$ we obtain that
@@ -105,9 +118,13 @@ Originally, the Donsker-Varadhan lemma was formulated a little differently. More
 
 ---
 **Original Donsker-Varadhan (as originally formulated):** *Let $(\mathcal{X}, \mathscr{X})$ be a measurable space and $\mu$ and $\nu$ be two probability measures on $\mathcal{X}$. Let also $\mathcal{U}$ be the set of all measurable functions on $\mathcal{X}$ such that there exists constants $c_1$ and $c_2$ satisfying that $0 < c_1 \leq u(x) \leq c_2 < \infty$ a.s.. If $\mu \ll \nu$, then*
+
 $$
+\begin{equation*}
 D(\mu \lVert \nu) = \sup_{u \in \mathcal{U}} \Big \lbrace \mathbb{E}_{x \sim \mu}[ \log u(x) ] - \log \mathbb{E}_{x \sim \nu} [u(x)] \Big \rbrace
+\end{equation*}
 $$
+
 ---
 
 Letting $u = e^g$ basically recovers the statement as we know it today. To be precise, in the original statement, they considered $(\mathcal{X}, \mathscr{X})$ to be a *metric* space, and the set of functions $\mathcal{U}^*$, which are the functions in $\mathcal{U}$ that are also continuous and where the condition $0 < c_1 \leq u(x) \leq c_2 < \infty$ holds for all $x \in \mathcal{X}$. However, as will be apparent in their proof, these extra requirements are not necessary.
@@ -143,7 +160,9 @@ $$
 Employing the change of measure once more to the first term on the right hand side of the last equation reveals that
 
 $$
+\begin{equation*}
 \int_{\mathcal{X}} \rho(x) \log  \rho(x)  d\nu(x) = \int_{\mathcal{X}}  \log  \rho(x)  d\mu(x) := D(\mu \lVert \nu).
+\end{equation*}
 $$
 
 Finally, using Jensen's inequality to the second term shows that
@@ -164,7 +183,9 @@ From the proof of the equality, it seems clear that the inequality holds with eq
 With this purpose, let $(u_n)_{n > 0}$ be a sequence of functions $u_n \in \mathcal{U}$ defined as
 
 $$
+\begin{equation*}
     u_n(x) := \max \Big( \min \big( \rho(x), n), \frac{1}{n} \Big). 
+\end{equation*}
 $$
 
 From this definition, we see that $\lim_{n \to \infty} \int_{\mathcal{X}} | u_n(x) - \rho(x) | \nu(x) = 0$. Hence, since $0 < c_1 \leq u_n \leq c_2 < \infty$ a.s. for some $c_1$ and $c_2$ by definition, by the dominated convergence theorem [McDonald and Weiss 1999, Theorem 5.9] and the continuity of the logarithm
