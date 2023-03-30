@@ -3,7 +3,7 @@ layout: default
 title: From the Gibbs variational principle to the Donsker-Varadhan lemma 
 ---
 
-# The Gibbs variational principle and the Donsker-Varadhan lemma
+## The Gibbs variational principle and the Donsker-Varadhan lemma
 
 The Gibbs variational principle and the Donsker-Varadhan lemma are two important inequalities that relate:
 - the relative entropy $D(\mu \lVert \nu)$ of a probability distribution $\mu$ with respect to another distribution $\nu$,
