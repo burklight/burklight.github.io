@@ -28,7 +28,7 @@ $$
 
 $$
 \begin{equation*}
-D(\mu \lVert \nu) = \sup_{g \in \mathcal{G}} \Big \lbrace \mathbb{E}_{x \sim \mu}[g(x) ] - \log \mathbb{E}_{x \sim \nu} [e^{g(x)}] \Big \rbrace
+D(\mu \lVert \nu) = \sup_{g \in \mathcal{G}_{\nu}} \Big \lbrace \mathbb{E}_{x \sim \mu}[g(x) ] - \log \mathbb{E}_{x \sim \nu} [e^{g(x)}] \Big \rbrace
 \end{equation*}
 $$
 
@@ -40,7 +40,7 @@ In this blog I will mainly cover three things:
 3. *The proof of Donsker-Varadhan lemma.* We will go over the original proof from M. D. Donsker and S. R. S. Varadhan. The original paper is behind a paywall and the proof is pretty, so I thought that I might as well keep it here.
 
 ---
-**Note:** *In the Gibbs variational principle, we do not need to restrict the probability measures $\mu$ to those that are absolutely continuous with respect to $\nu$. That is, the supremum can be the set of all probability distributions $\mathcal{P}(\mathcal{X})$. However, often we are only interested in the distributions in $\mathcal{P}_{\nu}(\mathcal{X})$. Moreover, is this more restricted formulation the one that will allow us to find the duality statement.*
+**Note:** *In the Gibbs variational principle, we do not need to restrict the probability measures $\mu$ to those that are absolutely continuous with respect to $\nu$. That is, the supremum can be the set of all probability distributions $\mathcal{P}(\mathcal{X})$. However, often we are only interested in the distributions in $\mathcal{P}_{\nu}(\mathcal{X})$. Moreover, it is this more restricted formulation the one that will allow us to find the duality statement.*
 
 ---
 
@@ -50,7 +50,7 @@ It is known that, for a fixed $\nu$, the relative entropy $D(\mu \lVert \nu)$ is
 
 Then, we can employ some duality tricks to realize that both the Gibbs variational principle and the Donsker-Varadhan lemma are two sides of the same coin.
 
-Let $\nu$ be a probability measure. Let $\mathcal{P}\_{\nu}(\mathcal{X})$ be the set of all probability distributions $\mu$ on $\mathcal{X}$ such that $\mu \ll \nu$. Similarly, let $\mathcal{G}\_{\nu}$ be the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}\_{x \sim \nu}[e^{g(x)}] < \infty$.This is equivalent to the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}\_{x \sim \mu}[g(x)] < \infty$ for all $\mu \in \mathcal{P}\_{\nu}(\mathcal{X})$. Therefore, $\mathcal{G}\_{\nu}$ is the dual space of $\mathcal{P}\_{\nu}(\mathcal{X})$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle := \mathbb{E}\_{x \sim \mu} [g(x)]$.
+Let $\nu$ be a probability measure. Let $\mathcal{P}\_{\nu}(\mathcal{X})$ be the set of all probability distributions $\mu$ on $\mathcal{X}$ such that $\mu \ll \nu$. Similarly, let $\mathcal{G}\_{\nu}$ be the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}\_{x \sim \nu}[e^{g(x)}] < \infty$. This is equivalent to the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}\_{x \sim \mu}[g(x)] < \infty$ for all $\mu \in \mathcal{P}\_{\nu}(\mathcal{X})$. Therefore, $\mathcal{G}\_{\nu}$ is the dual space of $\mathcal{P}\_{\nu}(\mathcal{X})$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle := \mathbb{E}\_{x \sim \mu} [g(x)]$.
 
 Consider the convex conjugate $D\_{\nu}^{\*} : \mathcal{G}\_{\nu} \to \mathbb{R}$ of $D\_{\nu}$, that is
 
@@ -66,7 +66,7 @@ Since $D_{\nu}$ is convex and lower semicontinuous by the Fenchel–Moreau theor
 
 $$
 \begin{aligned}
-    D_{\nu}(\mu) &= \sup_{g \in \mathcal{G}_{\nu}} \Big \lbrace \langle \mu, g \rangle - D_{\nu}^{*}(\mu) \Big \rbrace \\
+    D_{\nu}(\mu) &= \sup_{g \in \mathcal{G}_{\nu}} \Big \lbrace \langle \mu, g \rangle - D_{\nu}^{*}(g) \Big \rbrace \\
     &= \sup_{g \in \mathcal{G}_{\nu}} \Big \lbrace \langle \mu, g \rangle - \log \mathbb{E}_{x \sim \nu} [e^{g(x)}] \Big \rbrace,
 \end{aligned}
 $$
@@ -215,7 +215,7 @@ which completes the proof. $\square$
 
 ## And that is all
 
-Well, that is the end of this blog. Thank you very much for reading until the end and again I hope I did not bore you too much or I did not write too much incoherences.
+Well, that is the end of this blog. Thank you very much for reading until the end and again I hope I did not bore you too much or I did not write too many incoherences.
 
 Please, let me know if you have any suggestions. 
 
