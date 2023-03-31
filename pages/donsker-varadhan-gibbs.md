@@ -188,7 +188,7 @@ $$
 \end{equation*}
 $$
 
-From this definition, we see that $\lim_{n \to \infty} \int_{\mathcal{X}} | u_n(x) - \rho(x) | \nu(x) = 0$. Hence, since $0 < c_1 \leq u_n \leq c_2 < \infty$ a.s. for some $c_1$ and $c_2$ by definition, by the dominated convergence theorem [McDonald and Weiss 1999, Theorem 5.9] and the continuity of the logarithm
+From this definition, we see that $\lim_{n \to \infty} \int_{\mathcal{X}} \lvert u_n(x) - \rho(x) \rvert \nu(x) = 0$. Hence, since $0 < c_1 \leq u_n \leq c_2 < \infty$ a.s. for some $c_1$ and $c_2$ by definition, by the dominated convergence theorem [McDonald and Weiss 1999, Theorem 5.9] and the continuity of the logarithm
 
 $$
 \begin{aligned}
