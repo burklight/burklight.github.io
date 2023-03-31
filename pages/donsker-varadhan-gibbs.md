@@ -46,7 +46,7 @@ In this blog I will mainly cover three things:
 
 ## Two sides of the same coin
 
-It is known that, for a fixed $\nu$, the relative entropy $D(\mu \lVert \nu)$ is convex  and lower semicontinuous with respect to $\mu$ [Poliansky and Wu 2022, Theorem 5.1 and Theorem 4.8]. For convenience, let us define this function as $D_{\nu}(\mu) := D(\mu \lVert \nu)$.
+It is known that, for a fixed $\nu$, the relative entropy $D(\mu \lVert \nu)$ is convex  and lower semicontinuous with respect to $\mu$ [Polyanskiy and Wu 2022, Theorem 5.1 and Theorem 4.8]. For convenience, let us define this function as $D_{\nu}(\mu) := D(\mu \lVert \nu)$.
 
 Then, we can employ some duality tricks to realize that both the Gibbs variational principle and the Donsker-Varadhan lemma are two sides of the same coin.
 
