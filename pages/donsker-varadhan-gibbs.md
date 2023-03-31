@@ -6,7 +6,7 @@ title: From the Gibbs variational principle to the Donsker-Varadhan lemma
 ## The Gibbs variational principle and the Donsker-Varadhan lemma
 
 The Gibbs variational principle and the Donsker-Varadhan lemma are two important inequalities that relate:
-- the relative entropy $D(\mu \lVert \nu)$ of a probability distribution $\mu$ with respect to another distribution $\nu$,
+- the relative entropy \\( D(\mu \lVert \nu) \\) of a probability distribution $\mu$ with respect to another distribution $\nu$,
 - the expectation $\mathbb{E}_{x \sim \mu}[g(x)]$ of a measurable function $g$ with respect to $\mu$, and
 - the cumulant generating function $\log \mathbb{E}_{x \sim \nu} [e^{g(x)}]$ of that function with respect to $\nu$. 
 
@@ -50,7 +50,7 @@ It is known that, for a fixed $\nu$, the relative entropy $D(\mu \lVert \nu)$ is
 
 Then, we can employ some duality tricks to realize that both the Gibbs variational principle and the Donsker-Varadhan lemma are two sides of the same coin.
 
-Let $\nu$ be a probability measure. Let $\mathcal{P}_{\nu}(\mathcal{X})$ be the set of all probability distributions $\mu$ on $\mathcal{X}$ such that $\mu \ll \nu$. Similarly, let $\mathcal{G}_{\nu}$ be the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \nu}[e^{g(x)}] < \infty$. This is equivalent to the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \mu}[g(x)] < \infty$ for all $\mu \in \mathcal{P}_{\nu}(\mathcal{X})$. Therefore, $\mathcal{G}_{\nu}$ is the dual space of $\mathcal{P}_{\nu}(\mathcal{X})$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle := \mathbb{E}_{x \sim \mu} [ g(x)]$.
+Let $\nu$ be a probability measure. Let $\mathcal{P}_{\nu}(\mathcal{X})$ be the set of all probability distributions $\mu$ on $\mathcal{X}$ such that $\mu \ll \nu$. Similarly, let $\mathcal{G}_{\nu}$ be the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \nu}[e^{g(x)}] < \infty$.This is equivalent to the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \mu}[g(x)] < \infty$ for all $\mu \in \mathcal{P}_{\nu}(\mathcal{X})$. Therefore, $\mathcal{G}_{\nu}$ is the dual space of $\mathcal{P}_{\nu}(\mathcal{X})$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle := \mathbb{E}_{x \sim \mu} [ g(x)]$.
 
 Consider the convex conjugate $D_{\nu}^{*} : \mathcal{G_{\nu}} \to \mathbb{R}$ of $D_{\nu}$, that is
 
@@ -60,12 +60,9 @@ $$
 \end{equation*}
 $$
 
-From the Gibbs variational principle, we know that $D_{\nu}^{*}(g) = \log \mathbb{E}_{x \sim \nu} [e^{g(x)}]$. 
-The dual space of $\mathcal{G}_{\nu}$ is now $\mathcal{M}_{\nu}(\mathcal{X})$, 
-which comprises all signed measures such that $\int_{\mathcal{X}} g(x) d\mu(x) < \infty$ for all $g \in \mathcal{G}_{\nu}$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle :=  \int_{\mathcal{X}} g(x) d\mu(x)$. 
+From the Gibbs variational principle, we know that $D_{\nu}^{*}(g) = \log \mathbb{E}_{x \sim \nu} [e^{g(x)}]$. The dual space of $\mathcal{G}_{\nu}$ is now $\mathcal{M}_{\nu}(\mathcal{X})$, which comprises all signed measures such that $\int_{\mathcal{X}} g(x) d\mu(x) < \infty$ for all $g \in \mathcal{G}_{\nu}$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle :=  \int_{\mathcal{X}} g(x) d\mu(x)$. 
 
-Since $D_{\nu}$ is convex and lower semicontinuous by the Fenchel–Moreau theorem it holds that the convex conjugate $(D_{\nu}^{*})^{*}$ 
-of $D_{\nu}^{*}$ is equal to the original function $D_{\nu}$. Hence, we have that
+Since $D_{\nu}$ is convex and lower semicontinuous by the Fenchel–Moreau theorem it holds that the convex conjugate $(D_{\nu}^{*})^{*}$ of $D_{\nu}^{*}$ is equal to the original function $D_{\nu}$. Hence, we have that
 
 $$
 \begin{aligned}
@@ -74,8 +71,7 @@ $$
 \end{aligned}
 $$
 
-which recovers the Donsker-Varadhan lemma. In fact, it finds a slightly more general version where $\mu$ does not need to be a probability measure. In any case, as it holds for all signed measures $\mu \in \mathcal{M}_{\nu}(\mathcal{X})$, 
-it also holds for all probability measures $\mu \in \mathcal{P}_{\nu}(\mathcal{X}) \subseteq \mathcal{M}_{\nu}(\mathcal{X})$.
+which recovers the Donsker-Varadhan lemma. In fact, it finds a slightly more general version where $\mu$ does not need to be a probability measure. In any case, as it holds for all signed measures $\mu \in \mathcal{M}_{\nu}(\mathcal{X})$, it also holds for all probability measures $\mu \in \mathcal{P}_{\nu}(\mathcal{X}) \subseteq \mathcal{M}_{\nu}(\mathcal{X})$.
 
 ## Proof of the Gibbs variational principle
 
