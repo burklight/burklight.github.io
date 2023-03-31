@@ -60,9 +60,9 @@ $$
 \end{equation*}
 $$
 
-From the Gibbs variational principle, we know that $D_{\nu}^{*}(g) = \log \mathbb{E}_{x \sim \nu} [e^{g(x)}]$. The dual space of $\mathcal{G}_{\nu}$ is now $\mathcal{M}_{\nu}(\mathcal{X})$, which comprises all signed measures such that $\int_{\mathcal{X}} g(x) d\mu(x) < \infty$ for all $g \in \mathcal{G}_{\nu}$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle :=  \int_{\mathcal{X}} g(x) d\mu(x)$. 
+From the Gibbs variational principle, we know that $D\_{\nu}^{\*}(g) = \log \mathbb{E}\_{x \sim \nu} [e^{g(x)}]$. The dual space of $\mathcal{G}\_{\nu}$ is now $\mathcal{M}\_{\nu}(\mathcal{X})$, which comprises all signed measures such that $\int_{\mathcal{X}} g(x) d\mu(x) < \infty$ for all $g \in \mathcal{G}\_{\nu}$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle :=  \int_{\mathcal{X}} g(x) d\mu(x)$. 
 
-Since $D_{\nu}$ is convex and lower semicontinuous by the Fenchel–Moreau theorem it holds that the convex conjugate $(D_{\nu}^{*})^{*}$ of $D_{\nu}^{*}$ is equal to the original function $D_{\nu}$. Hence, we have that
+Since $D_{\nu}$ is convex and lower semicontinuous by the Fenchel–Moreau theorem it holds that the convex conjugate $(D\_{\nu}^{\*})^{\*}$ of $D\_{\nu}^{\*}$ is equal to the original function $D_{\nu}$. Hence, we have that
 
 $$
 \begin{aligned}
@@ -71,7 +71,7 @@ $$
 \end{aligned}
 $$
 
-which recovers the Donsker-Varadhan lemma. In fact, it finds a slightly more general version where $\mu$ does not need to be a probability measure. In any case, as it holds for all signed measures $\mu \in \mathcal{M}_{\nu}(\mathcal{X})$, it also holds for all probability measures $\mu \in \mathcal{P}_{\nu}(\mathcal{X}) \subseteq \mathcal{M}_{\nu}(\mathcal{X})$.
+which recovers the Donsker-Varadhan lemma. In fact, it finds a slightly more general version where $\mu$ does not need to be a probability measure. In any case, as it holds for all signed measures $\mu \in \mathcal{M}\_{\nu}(\mathcal{X})$, it also holds for all probability measures $\mu \in \mathcal{P}\_{\nu}(\mathcal{X}) \subseteq \mathcal{M}\_{\nu}(\mathcal{X})$.
 
 ## Proof of the Gibbs variational principle
 
@@ -79,7 +79,7 @@ The Gibbs variational principle is often traced back to Theorem III on Chapter X
 
 In any case, I really like R. van Handel's proof from Lemma 4.1 in his lecture notes. Below, I basically re-write his proof, so go check his notes as well :).
 
-*Proof:* Consider a probability measure $\gamma \in \mathcal{P}_{\nu}(\mathcal{X})$. Then, 
+*Proof:* Consider a probability measure $\gamma \in \mathcal{P}\_{\nu}(\mathcal{X})$. Then, 
 
 $$
 \begin{equation*}
@@ -87,7 +87,7 @@ $$
 \end{equation*}
 $$
 
-and $\sup_{\mu \in \mathcal{P}_{\nu}(\mathcal{X})} \big \lbrace \log \int_{\mathcal{X}} e^{g(x)} d \nu(x) - D(\mu \lVert \gamma) \rbrace =  \log \int_{\mathcal{X}} e^{g(x)} d \nu(x)$ since the relative entropy is non-negative.
+and $\sup_{\mu \in \mathcal{P}\_{\nu}(\mathcal{X})} \big \lbrace \log \int_{\mathcal{X}} e^{g(x)} d \nu(x) - D(\mu \lVert \gamma) \rbrace =  \log \int_{\mathcal{X}} e^{g(x)} d \nu(x)$ since the relative entropy is non-negative.
 
 An inspection of the Radon-Nikodym theorem [McDonald and Weiss 1999, Theorem 9.3] hints that we may want to consider the probability measure $\gamma$ with Radon-Nikodym derivative
 
@@ -107,7 +107,7 @@ $$
 \end{aligned}
 $$
 
-Finally, taking the supremum of $\mu$ over all $\mathcal{P}_{\nu}(\mathcal{X})$ recovers the original statement. $\square$
+Finally, taking the supremum of $\mu$ over all $\mathcal{P}\_{\nu}(\mathcal{X})$ recovers the original statement. $\square$
 
 By the duality argument from before, this also proves the Donsker-Varadhan lemma. 
 
@@ -127,7 +127,7 @@ $$
 
 ---
 
-Letting $u = e^g$ basically recovers the statement as we know it today. To be precise, in the original statement, they considered $(\mathcal{X}, \mathscr{X})$ to be a *metric* space, and the set of functions $\mathcal{U}^{*}$, which are the functions in $\mathcal{U}$ that are also continuous and where the condition $0 < c_1 \leq u(x) \leq c_2 < \infty$ holds for all $x \in \mathcal{X}$. However, as will be apparent in their proof, these extra requirements are not necessary.
+Letting $u = e^g$ basically recovers the statement as we know it today. To be precise, in the original statement, they considered $(\mathcal{X}, \mathscr{X})$ to be a *metric* space, and the set of functions $\mathcal{U}^{\*}$, which are the functions in $\mathcal{U}$ that are also continuous and where the condition $0 < c_1 \leq u(x) \leq c_2 < \infty$ holds for all $x \in \mathcal{X}$. However, as will be apparent in their proof, these extra requirements are not necessary.
 
 ---
 **Note:** *This extra requirements may be interesting in some situations where one is interested in having a smaller optimization set. However, often, in my limited experience, one wants to have as much liberty as possible when choosing the function $u$.*
@@ -135,7 +135,7 @@ Letting $u = e^g$ basically recovers the statement as we know it today. To be pr
 ---
 
 The proof from M. D. Donsker and S. R. S. Varadhan consists of two parts:
-- showing that $D(\mu \lVert \nu) \geq \mathbb{E}_{x \sim \mu}[ \log u(x) ] - \log \mathbb{E}_{x \sim \nu} [u(x)]$ for all $u \in \mathcal{U}$,
+- showing that $D(\mu \lVert \nu) \geq \mathbb{E}\_{x \sim \mu}[ \log u(x) ] - \log \mathbb{E}\_{x \sim \nu} [u(x)]$ for all $u \in \mathcal{U}$,
 - and showing that the supremum is achieved.
 
 The proof of the lemma is still very readable with the notation conventions of today. However, I will write a slightly shorter version in the same spirit.
@@ -144,7 +144,7 @@ In the original proof and paper, M. D. Donsker and S. R. S. Varadhan also deal w
 
 ### Proof of the inequality
 
-By definition, the relative entropy of $\mu$ with respect to $\nu$ is $D(\mu \lVert \nu) := \mathbb{E}_{x \sim \mu} \Big[ \log \Big( \frac{d\mu}{d\nu}(x) \Big) \Big]$, where $\frac{d\mu}{d \nu}$ is the Radon-Nikodym derivative of $\mu$ with respect to $\nu$. For the rest of the proof, it is convenient to give this measure it own symbol, for instance $\rho = \frac{d \mu}{d \nu}$.
+By definition, the relative entropy of $\mu$ with respect to $\nu$ is $D(\mu \lVert \nu) := \mathbb{E}\_{x \sim \mu} \Big[ \log \Big( \frac{d\mu}{d\nu}(x) \Big) \Big]$, where $\frac{d\mu}{d \nu}$ is the Radon-Nikodym derivative of $\mu$ with respect to $\nu$. For the rest of the proof, it is convenient to give this measure it own symbol, for instance $\rho = \frac{d \mu}{d \nu}$.
 
 The proof starts with a change of measure [McDonald and Weiss 1999, Proposition 9.1] followed by standard manipulations of logarithms. More precisely,
 
@@ -180,7 +180,7 @@ and re-arranging the terms completes the proof. $\square$
 
 From the proof of the equality, it seems clear that the inequality holds with equality when $u = \rho$ almost surely. 
 
-With this purpose, let $(u_n)_{n > 0}$ be a sequence of functions $u_n \in \mathcal{U}$ defined as
+With this purpose, let $(u_n)\_{n > 0}$ be a sequence of functions $u_n \in \mathcal{U}$ defined as
 
 $$
 \begin{equation*}
