@@ -52,7 +52,7 @@ Then, we can employ some duality tricks to realize that both the Gibbs variation
 
 Let $\nu$ be a probability measure. Let $\mathcal{P}_{\nu}(\mathcal{X})$ be the set of all probability distributions $\mu$ on $\mathcal{X}$ such that $\mu \ll \nu$. Similarly, let $\mathcal{G}_{\nu}$ be the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \nu}[e^{g(x)}] < \infty$.This is equivalent to the set of all measurable functions in $\mathcal{X}$ such that $\mathbb{E}_{x \sim \mu}[g(x)] < \infty$ for all $\mu \in \mathcal{P}_{\nu}(\mathcal{X})$. Therefore, $\mathcal{G}_{\nu}$ is the dual space of $\mathcal{P}_{\nu}(\mathcal{X})$ and the canonical dual pairing between the two spaces is $\langle \mu, g \rangle := \mathbb{E}_{x \sim \mu} [ g(x)]$.
 
-Consider the convex conjugate $D_{\nu}^{*} : \mathcal{G_{\nu}} \to \mathbb{R}$ of $D_{\nu}$, that is
+Consider the convex conjugate $D_{\nu}^{*} : \mathcal{G}_{\nu} \to \mathbb{R}$ of $D_{\nu}$, that is
 
 $$
 \begin{equation*}
