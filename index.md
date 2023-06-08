@@ -30,7 +30,17 @@ Also, sometimes I [blog](blog.md).
 
 ## Research
 
-### Publications
+### Publications (Chronological)
+
+* The Role of Entropy and Reconstruction for Multi-View Self-Supervised Learning
+<br/>
+<small>*<b>Borja Rodríguez-Gálvez</b>, Arno Blaas, Pau Rodriguez, Adam Golinski, Xavier Suau, Jason Ramapuram, Dan Busbridge, Luca Zappella*</small>
+  * <small> ICML 2023 [pdf] [[cite](citations/role_entrec_mvssl.html)] </small>
+
+* [Thompson Sampling Regret Bounds for Contextual Bandits with sub-Gaussian rewards](https://arxiv.org/abs/2304.13593)
+<br/>
+<small>*Amaury Gouverneur, <b>Borja Rodríguez-Gálvez</b>, Tobias J. Oechtering, and Mikael Skoglund*</small>
+  * <small> ISIT 2023 [[pdf](https://arxiv.org/pdf/2304.13593.pdf)] [[cite](citations/thomson_sampling_regret_contextual_bandits_subgaussian.html)] </small>
 
 * [Limitations of information-theoretic generalization bounds for gradient descent methods in stochastic convex optimization](https://proceedings.mlr.press/v201/haghifam23a.html)
 <br/>
@@ -99,7 +109,7 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
 ### Reviewing
   
 * <b>Journals</b>: IEEE Trans. IT, IEEE TIFS, JMLR, IEEE TCOM, EURASIP JASP <br/>
-* <b>Conferences</b>: IEEE ISIT, ICLR
+* <b>Conferences</b>:  NeurIPS, ICML, ICLR, IEEE ISIT
 
 ### Master's Theses' supervising
 
