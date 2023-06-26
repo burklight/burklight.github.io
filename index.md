@@ -32,10 +32,16 @@ Also, sometimes I [blog](blog.md).
 
 ### Publications (Chronological)
 
-* The Role of Entropy and Reconstruction for Multi-View Self-Supervised Learning
+* [More PAC-Bayes bounds: From bounded losses, to losses with general tail behaviors, to anytime-validity](https://arxiv.org/abs/2306.12214)
 <br/>
-<small>*<b>Borja Rodríguez-Gálvez</b>, Arno Blaas, Pau Rodriguez, Adam Golinski, Xavier Suau, Jason Ramapuram, Dan Busbridge, Luca Zappella*</small>
-  * <small> ICML 2023 [pdf] [[cite](citations/role_entrec_mvssl.html)] </small>
+<small>*<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund*</small>
+  * <small> Sections 2 and 3 presented at the PBMIL workshop of ICML 2023. Section 3 as an *oral presentation*. </small>
+  * <small> Full version is a preprint [[pdf](https://arxiv.org/pdf/2306.12214.pdf)] [[cite](citations/more_pac_bayes.html)] </small>
+
+* [The Role of Entropy and Reconstruction for Multi-View Self-Supervised Learning](https://openreview.net/forum?id=YJ3ytyemn1)
+<br/>
+<small>*<b>Borja Rodríguez-Gálvez</b>, Arno Blaas, Pau Rodriguez, Adam Golinski, Xavier Suau, Jason Ramapuram, Dan Busbridge, and Luca Zappella*</small>
+  * <small> ICML 2023 [[pdf](https://openreview.net/pdf?id=YJ3ytyemn1)] [[cite](citations/role_entrec_mvssl.html)] </small>
 
 * [Thompson Sampling Regret Bounds for Contextual Bandits with sub-Gaussian rewards](https://arxiv.org/abs/2304.13593)
 <br/>
@@ -55,7 +61,7 @@ Also, sometimes I [blog](blog.md).
 * [Tighter expected generalization error bounds via Wasserstein distance](https://arxiv.org/abs/2101.09315) 
 <br/> 
 <small>*<b>Borja Rodríguez-Gálvez</b>, Germán Bassi, Ragnar Thobaben, and Mikael Skoglund* </small> 
-  * <small> Presented at ITR3 Workshop of ICML 2021 (Contributed talk) [[pdf](preprints/https://drive.google.com/file/d/16E-ec_crzmdv3xGAt8CSB-P9gENuWJ_k/view)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
+  * <small> Presented at ITR3 Workshop of ICML 2021 (*Contributed talk*) [[pdf](preprints/https://drive.google.com/file/d/16E-ec_crzmdv3xGAt8CSB-P9gENuWJ_k/view)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
   * <small> NeurIPS 2021 
   [[pdf](https://openreview.net/attachment?id=xJYek6zantM&name=supplementary_material)] [[cite](citations/tighter_ege_via_wasserstein.html)] </small>
 
@@ -80,7 +86,7 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
 
 * [A Variational Approach to Privacy and Fairness](https://arxiv.org/abs/2006.06332) <br/> 
 <small>*<b>Borja Rodríguez-Gálvez</b>, Ragnar Thobaben, and Mikael Skoglund* </small>
-  * <small> Presented at PPAI Workshop of AAAI 2021 (Spotlight presentation) 
+  * <small> Presented at PPAI Workshop of AAAI 2021 (*Spotlight presentation*) 
 [[pdf](https://arxiv.org/pdf/2006.06332.pdf)] [[cite](citations/variational_approach_privacy_fairness.html)] [[video](videos/PPAI-21-slides.mp4)] [[slides](slides/PPAI-21-slides.pdf)] </small>
   * <small> IEEE ITW 2021 
 [[pdf](https://www.itw2021.org/system/files/media_paper_file/1570726551.pdf)] [[cite](citations/variational_approach_privacy_fairness.html)] [[video](https://www.itw2021.org/paper/variational-approach-privacy-and-fairness)] [[slides](https://www.itw2021.org/sites/default/files/2021-10/1570726551.pdf)] </small> 
@@ -103,6 +109,7 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
 * [DD2447 Statistical Methods in Applied Computer Science](https://www.kth.se/student/kurser/kurs/DD2447?l=en) at KTH - Fall 2018
 * [DD2380 Artificial Intelligence](https://www.kth.se/student/kurser/kurs/DD2380?l=en) - Fall 2018, Spring 2019, Fall 2019, Fall 2020, Fall 2021
 * [EQ1270 Stochastic Signals and Systems](https://www.kth.se/student/kurser/kurs/EQ1270?l=en) - Fall 2021, Fall 2022
+* [EQ2840/F2E5316 Information Theory](https://people.kth.se/~skoglund/edu/infotheory/) - Fall 2022, Spring 2023
 
 ## Service
 
