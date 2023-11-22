@@ -101,22 +101,37 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
   * <small> Entropy (Editor's choice) ([Special Issue](https://www.mdpi.com/journal/entropy/special_issues/information_theoretic_computational_intelligence)) 
 [[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)] [[graphical abstract](graphical-abstracts/convex-ib-entropy-ga.svg)] </small>
 
+## Talks
+
+* "A Variational Approach to Privacy and Fairness". **Spotlight presentation** at the [AAAI PPAI Workshop](https://ppai21.github.io/). *Online*. February 8th, 2021.
+
+* "Tighter expected generalization error bounds via Wasserstein distance". **Invited talk** at the [Information Theory, Machine Learning and Statistics Seminar](https://mariodiaztorres.com/itmlss21s.html). *Online*. April 30th, 2021.
+    
+* "Tighter expected generalization error bounds via Wasserstein distance". **Contributed talk** at the [ICML ITR3 Workshop](https://sites.google.com/view/itr3/home). *Online*. July 24th, 2021.
+    
+* "PAC-Bayes bounds’ parameter optimization via events’ space discretization: new bounds for losses with general tail behaviors". **Contributed talk** at the [ICML PBMIL Workshop](https://bguedj.github.io/icml2023-workshop). *Honolulu, Hawaii*. July 28th, 2023.
+    
+* "A Variational Approach to Privacy and Fairness". **Invited talk** at the Swiss Data Science Center. *Online*. October 25th, 2023.
+    
+* "More PAC-Bayes bounds: From bounded losses, to losses with general tail behaviors, to anytime-validity". **Invited talk** at the UCL department of statistics. *London, UK*. November 15h, 2023.
+
+* "More PAC-Bayes bounds: From bounded losses, to losses with general tail behaviors, to anytime-validity". **Invited talk** at Google Deepmind. *London, UK*. November 17h, 2023.
 
 ## Teaching 
 
 * [DD2424 Deep Learning in Data Science](https://www.kth.se/student/kurser/kurs/DD2424?l=en) at KTH - Spring 2019
 * [DD2434 Machine Learning, Advanced Course](https://www.kth.se/student/kurser/kurs/DD2434?l=en) at KTH - Fall 2018
 * [DD2447 Statistical Methods in Applied Computer Science](https://www.kth.se/student/kurser/kurs/DD2447?l=en) at KTH - Fall 2018
-* [DD2380 Artificial Intelligence](https://www.kth.se/student/kurser/kurs/DD2380?l=en) - Fall 2018, Spring 2019, Fall 2019, Fall 2020, Fall 2021
-* [EQ1270 Stochastic Signals and Systems](https://www.kth.se/student/kurser/kurs/EQ1270?l=en) - Fall 2021, Fall 2022
-* [EQ2840/F2E5316 Information Theory](https://people.kth.se/~skoglund/edu/infotheory/) - Fall 2022, Spring 2023
+* [DD2380 Artificial Intelligence](https://www.kth.se/student/kurser/kurs/DD2380?l=en) - Fall 2018, 2019, 2020, and 2021; and Spring 2019
+* [EQ1270 Stochastic Signals and Systems](https://www.kth.se/student/kurser/kurs/EQ1270?l=en) at KTH - Fall 2021, 2022, and 2023
+* [EQ2840/F2E5316 Information Theory](https://people.kth.se/~skoglund/edu/infotheory/) at KTH - Fall 2022, Spring 2023
 
 ## Service
 
 ### Reviewing
   
 * <b>Journals</b>: IEEE Trans. IT, IEEE TIFS, JMLR, IEEE TCOM, EURASIP JASP <br/>
-* <b>Conferences</b>:  NeurIPS, ICML, ICLR, IEEE ISIT
+* <b>Conferences</b>:  NeurIPS, ICML, ICLR, AISTATS, IEEE ISIT
 
 ### Master's Theses' supervising
 
