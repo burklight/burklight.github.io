@@ -2,12 +2,10 @@ title: Borja Rodríguez Gálvez # your name (or website title) here
 logo: "/images/borja.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Researcher at KTH Royal Institute of Technology
-  #<br><br>
-  #Second description 
-  #<br><br>
-  <a href="https://scholar.google.com/citations?user=sq1BkUMAAAAJ&hl=en">Google Scholar</a> 
-  <a href="https://www.linkedin.com/in/borja-rodriguez/">LinkedIn</a> 
-  <a href="https://github.com/burklight">GitHub</a> 
+#  <br><br>
+#  Second description 
+#  <br><br>
+  <a href="https://scholar.google.com/citations?user=sq1BkUMAAAAJ&hl=en">Google Scholar</a> - <a href="https://www.linkedin.com/in/borja-rodriguez/">LinkedIn</a> -  <a href="https://github.com/burklight">GitHub</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
