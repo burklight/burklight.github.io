@@ -1,37 +1,34 @@
-[About me](#about-me) - [Research](#research) - [Teaching](#teaching) - [Service](#service) - [CV](pages/cv.md)
-
----
-
-## About me
-
-I am a researcher at KTH Royal Institute of Technology in Stockholm, Sweden. Before that, I did a PhD and a master's degree in [Machine Learning](https://www.kth.se/en/studies/master/machinelearning) also at KTH and a bachelor's degree in [Telecommunications engineering](https://telecos.upc.edu/en/study-programs/degrees/bachelors-degree-in-telecommunications-technologies-and-services-engineering) at Universitat Politècnica de Catalunya (UPC) in Barcelona, Spain. 
-
-Previously, I was an intern at the Machine Learning Group (Summer 2022) and at the Privacy and Machine Learning team at Apple (Summer 2021), the Machine Learning and Computer Vision team at CISCO (Summer 2019), and the Machine Learning and Computer Vision team at Tobii AB (Summer 2018).
-
-I study the intersection between information theory and machine learning, under the supervision of [Mikael Skoglund](https://people.kth.se/~skoglund/) and [Ragnar Thobaben](https://www.kth.se/profile/ragnart). I am particularly interested in:
-
-* Generalization of learning algorithms.
-* Privacy and fairness of learning algorithms.
-* Uncertainty in learning agorithms.
-* Representation learning. More specifically, in no particular order:
-  * Minimal (and sufficient) representations.
-  * Disentangled representations.
-  * Private and fair represenations.
-
-However, I am also interested in talking about other topics in information theory and machine learning. So, please, do not hesitate to contact me for a discussion (_borjabrg12 at gmail dot com_).
-
----
-
-## Research
-
-### PhD Thesis
-
-* [An Information-Theoretic Approach to Generalization Theory](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1848094&dswid=1355)
-<br/>
-<small>*<b>Borja Rodríguez-Gálvez</b>* [[pdf](http://kth.diva-portal.org/smash/get/diva2:1848094/FULLTEXT04.pdf)] [[cite](citations/phd_thesis.html)] </small>
+Education
+======
+* Ph.D in Electrical Engineering & Computer Science, *KTH Royal Institute of Technology*: August 2019 - April 2024 (Stockholm, Sweden)
+  * Supervisors: Mikael Skoglund and Ragnar Thobaben
+  * Doctoral thesis: "[An Information-Theoretic Approach to Generalization Theory](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1848094&dswid=8191)"
+* M.Sc. in Machine Learning, *KTH Royal Institute of Technology*: August 2017 - June 2019 (Stockholm, Sweden)
+  * Master thesis: "[Optimal measurement times for particle filtering](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1332068&dswid=-782)"
+* B.Sc. in Telecommunications Engineernig, *Universitat Politècnica de Catalunya*: August 2013 - July 2017 (Barcelona, Spain)
 
 
-### Publications (Chronological)
+Professional experience
+======
+* *Machine Learning Research Intern* at *Apple*: June 2022 - September 2022 (Paris, France)
+  * I studied multi-view self-supervised learning algorithms. We saw that most of these algorithms were maximizing the same mutual information via different tricks and that they could be simplified and made more robust maximizing it explicitly [[resulting paper]()].
+
+* *Machine Learning Research Intern* at *Apple*: June 2021 - September 2021 (Cambridge, UK)
+  * I developed private federated learning algorithms that also certified a prescribed level of group fairness. [[resulting paper]()].
+
+* *Machine Learning Research Intern* at *CISCO*: June 2019 - August 2019 (Oslo, Norway)
+  * I developed more efficient face detection algorithms.
+
+* *Machine Learning Research Intern* at *Tobii AB*: June 2018 - August 2018 (Stockholm, Sweden)
+  * I developed more efficient gaze estimation and head pose estimation algorithms.
+
+* *Computer Vision Intern* at *Serimag Media*: June 2018 - August 2018 (Barcelona, Spain)
+  * I researched and implemented an algorithm to generate images from video frames. The algorithm was developed with the collaboration of the [CVC Barcelona](https://www.cvc.uab.es/).
+
+
+
+Publications
+======
 
 * [A note on generalization bounds for losses with finite moments](https://arxiv.org/abs/2403.16681)
 <br/>
@@ -107,8 +104,6 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
   * <small> Entropy (Editor's choice) ([Special Issue](https://www.mdpi.com/journal/entropy/special_issues/information_theoretic_computational_intelligence)) 
 [[pdf](https://www.mdpi.com/1099-4300/22/1/98/pdf)] [[cite](citations/convex_ib_lagrangian.html)] [[graphical abstract](graphical-abstracts/convex-ib-entropy-ga.svg)] </small>
 
----
-
 ## Talks
 
 * "A Variational Approach to Privacy and Fairness". **Spotlight presentation** at the [AAAI PPAI Workshop](https://ppai21.github.io/). *Online*. February 8th, 2021.
@@ -133,28 +128,3 @@ Contextualized Embeddings](https://www.mdpi.com/2813-0324/3/1/3) <br/>
 * [DD2380 Artificial Intelligence](https://www.kth.se/student/kurser/kurs/DD2380?l=en) - Fall 2018, 2019, 2020, and 2021; and Spring 2019
 * [EQ1270 Stochastic Signals and Systems](https://www.kth.se/student/kurser/kurs/EQ1270?l=en) at KTH - Fall 2021, 2022, and 2023
 * [EQ2840/F2E5316 Information Theory](https://people.kth.se/~skoglund/edu/infotheory/) at KTH - Fall 2022, Spring 2023
-
----
-
-## Service
-
-### Reviewing
-  
-* <b>Journals</b>: IEEE Trans. IT, IEEE TIFS, JMLR, IEEE TCOM, EURASIP JASP <br/>
-* <b>Conferences</b>:  NeurIPS, ICML, ICLR, AISTATS, IEEE ISIT, UAI
-
-### Master's Theses' supervising
-
-  * <b>Elias Ågeby</b> - Currently exploring his culinary passion <br/>
-  <small>*Introducing Sparsity into the Current Landscape of Disentangled Representation Learning* - [[pdf](http://www.diva-portal.org/smash/get/diva2:1544671/FULLTEXT01.pdf)] [[website](https://eageby.github.io/disentangled-representations/#demo)] [[code](https://github.com/eageby/disentangled-representations)] </small> 
-  * <b>Johan Sörell</b> - Currently at Academic Work Sweden AB <br/>
-  <small>*A General Approach to Inaudible Adversarial Perturbations in a Black-box Setting* - [[pdf](http://www.diva-portal.org/smash/get/diva2:1544617/FULLTEXT01.pdf)] </small>
-  * <b>Mihaela Georgieva Stoycheva</b> - Currently at Ocado <br/>
-  <small>*Uncertainty Estimation in Deep Neural Object Detectors for Autonomous Driving* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1618103/FULLTEXT01.pdf)]</small>
-  * <b> Polixeni Ioannidou </b> - Currently at Ridgeline Discovery <br/>
-  <small>*Anomaly Detection in Computer Networks* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1557602/FULLTEXT01.pdf)] </small>
-* <b>Styliani Katsarou </b> - Currently at Peltarion <br/>
-  <small>*Improving Multilingual Models for the Swedish Language:  Exploring Cross­Lingual Transferability and Stereotypical Biases* - [[pdf](http://kth.diva-portal.org/smash/get/diva2:1618310/FULLTEXT01.pdf)]</small>
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-
