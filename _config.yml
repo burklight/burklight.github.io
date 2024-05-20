@@ -6,9 +6,9 @@ description: > # your text below (remove <br> elements if you don't need line br
 # Second description 
 # <br><br>
   <a href="https://scholar.google.com/citations?user=sq1BkUMAAAAJ&hl=en">Google Scholar</a> 
-
+#
   <a href="https://www.linkedin.com/in/borja-rodriguez/">LinkedIn</a> 
-
+#
   <a href="https://github.com/burklight">GitHub</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
