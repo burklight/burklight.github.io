@@ -9,7 +9,9 @@ description: > # your text below (remove <br> elements if you don't need line br
 <a href="https://github.com/burklight">GitHub</a> 
 <a href="https://www.linkedin.com/in/borja-rodriguez">LinkedIn</a> 
 
-theme: pages-themes/minimal@v0.2.0 # jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0 # jekyll-theme-minimal
+plugins:
+- jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 github:
   is_project_page: false
