@@ -1,4 +1,4 @@
-[About me](#about-me) - [Research](#research) - [Teaching](#teaching) - [Service](#service) - [CV](pages/cv.md) - [Google Scholar](https://scholar.google.com/citations?user=sq1BkUMAAAAJ&hl=en) - [Github](https://github.com/burklight) - [LinkedIn](https://www.linkedin.com/in/borja-rodriguez/)
+[About me](#about-me) - [Research](#research) - [Teaching](#teaching) - [Service](#service) - [CV](pages/cv.md) -  [Blog](pages/blog.md) - [Google Scholar](https://scholar.google.com/citations?user=sq1BkUMAAAAJ&hl=en) - [Github](https://github.com/burklight) - [LinkedIn](https://www.linkedin.com/in/borja-rodriguez/)
 
 ## About me
 
