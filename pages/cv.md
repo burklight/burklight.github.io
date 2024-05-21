@@ -4,7 +4,7 @@ Education
   * Supervisors: Mikael Skoglund and Ragnar Thobaben
   * Doctoral thesis: "[An Information-Theoretic Approach to Generalization Theory](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1848094&dswid=8191)"
 * M.Sc. in Machine Learning, *KTH Royal Institute of Technology*: August 2017 - June 2019 (Stockholm, Sweden)
-  * Master thesis: "[Optimal measurement times for particle filtering](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1332068&dswid=-782)"
+  * Master thesis: "[The Information Bottleneck: Connections to Other Problems, Learning and Exploration of the IB Curve](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1332068&dswid=-782)"
 * B.Sc. in Telecommunications Engineernig, *Universitat Politècnica de Catalunya*: August 2013 - July 2017 (Barcelona, Spain)
 
 
