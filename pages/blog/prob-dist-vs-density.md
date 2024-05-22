@@ -1,8 +1,3 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-
-
 Some time ago, my doctoral advisor, [Mikael Skoglund](https://people.kth.se/~skoglund/), pointed to me I was referring to the _probability density function_ of a random variable as _distribution_, and that it was wrong. I was a bit puzzled, since I learned the definitions of these concepts during the bachelor's degree. However, after reading machine learning papers, these definitions blurred in my mind, since in many papers the two are confused with each other and/or used indistinctibly. In fact, even I propagated this misconception.
 
 Recently, while reviewing the documents from some master's students, I realized that this has become a common misconception. For this reason, I decided to write about (i) the differences between these terms and (ii) how to write about them more precisely in academic texts.
